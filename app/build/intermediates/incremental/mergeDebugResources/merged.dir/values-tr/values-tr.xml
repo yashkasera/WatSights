@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d yeni bildirim</item>
+    <item quantity="other">%d yeni bildirim</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Eve gidiş yolunu göster"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AÇ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"sil"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Üst Karakter+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"boşluk"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menü+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Şununla paylaş:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
+    <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Şifre kullan"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopyala"</string>
+    <string name="country_afghanistan_name">Afganistan</string>
+    <string name="country_aland_islands_name">Aland adaları</string>
+    <string name="country_albania_name">Arnavutluk</string>
+    <string name="country_algeria_name">Cezayir</string>
+    <string name="country_american_samoa_name">Amerikan Samoası</string>
+    <string name="country_andorra_name">Andorra</string>
+    <string name="country_angola_name">Angola</string>
+    <string name="country_anguilla_name">Anguilla</string>
+    <string name="country_antarctica_name">Antartika</string>
+    <string name="country_antigua_and_barbuda_name">Antigua ve Barbuda</string>
+    <string name="country_argentina_name">Arjantin</string>
+    <string name="country_armenia_name">Ermenistan</string>
+    <string name="country_aruba_name">Aruba</string>
+    <string name="country_australia_name">Avustralya</string>
+    <string name="country_austria_name">Avusturya</string>
+    <string name="country_azerbaijan_name">Azerbaycan</string>
+    <string name="country_bahamas_name">Bahamalar</string>
+    <string name="country_bahrain_name">Bahreyn</string>
+    <string name="country_bangladesh_name">Bangladeş</string>
+    <string name="country_barbados_name">Barbados</string>
+    <string name="country_belarus_name">Belarus</string>
+    <string name="country_belgium_name">Belçika</string>
+    <string name="country_belize_name">Belize</string>
+    <string name="country_benin_name">Benin</string>
+    <string name="country_bermuda_name">Bermuda</string>
+    <string name="country_bhutan_name">Bhutan</string>
+    <string name="country_bolivia_name">Bolivya</string>
+    <string name="country_bosnia_and_herzegovina_name">Bosna Hersek</string>
+    <string name="country_botswana_name">Botsvana</string>
+    <string name="country_brazil_name">Brazilya</string>
+    <string name="country_british_virgin_islands_name">British Virgin Adaları</string>
+    <string name="country_brunei_darussalam_name">Brunei Darussalam</string>
+    <string name="country_bulgaria_name">Bulgaristan</string>
+    <string name="country_burkina_faso_name">Burkina Faso</string>
+    <string name="country_burundi_name">Burundi</string>
+    <string name="country_cambodia_name">Kamboçya</string>
+    <string name="country_cameroon_name">Kamerun</string>
+    <string name="country_canada_name">Kanada</string>
+    <string name="country_cape_verde_name">Cape Verde</string>
+    <string name="country_cayman_islands_name">Cayman Adaları</string>
+    <string name="country_central_african_republic_name">Orta Afrika Cumhuriyeti</string>
+    <string name="country_chad_name">Çad</string>
+    <string name="country_chile_name">Şili</string>
+    <string name="country_china_name">Çin</string>
+    <string name="country_christmas_island_name">Christmas Adası</string>
+    <string name="country_cocos_keeling_islands_name">Cocos (keeling) Adaları</string>
+    <string name="country_colombia_name">Kolombiya</string>
+    <string name="country_comoros_name">Comoros</string>
+    <string name="country_congo_name">Kongo</string>
+    <string name="country_cook_islands_name">Cook Adaları</string>
+    <string name="country_costa_rica_name">Kosta Rika</string>
+    <string name="country_cote_d_ivoire_name">Fildişi Sahilleri</string>
+    <string name="country_croatia_name">Hırvatistan</string>
+    <string name="country_cuba_name">Küba</string>
+    <string name="country_cyprus_name">Kıbrıs</string>
+    <string name="country_czech_republic_name">Çekya</string>
+    <string name="country_denmark_name">Danimarka</string>
+    <string name="country_djibouti_name">Cibuti</string>
+    <string name="country_dominica_name">Dominika</string>
+    <string name="country_dominican_republic_name">Dominik Cumhuriyeti</string>
+    <string name="country_ecuador_name">Ekvator</string>
+    <string name="country_egypt_name">Mısır</string>
+    <string name="country_el_salvador_name">El Salvador</string>
+    <string name="country_equatorial_guinea_name">Ekvatoral Gine</string>
+    <string name="country_eritrea_name">Eritre</string>
+    <string name="country_estonia_name">Estonya</string>
+    <string name="country_ethiopia_name">Etiyopya</string>
+    <string name="country_falkland_islands_malvinas_name">Falkland Adaları (malvinas)</string>
+    <string name="country_faroe_islands_name">Faroe Adaları</string>
+    <string name="country_fiji_name">Fiji</string>
+    <string name="country_finland_name">Finlandiya</string>
+    <string name="country_france_name">Fransa</string>
+    <string name="country_french_guyana_name">Fransız Guyanası</string>
+    <string name="country_french_polynesia_name">Fransız Polinezyası</string>
+    <string name="country_gabon_name">Gabon</string>
+    <string name="country_gambia_name">Gambiya</string>
+    <string name="country_georgia_name">Gürcistan</string>
+    <string name="country_germany_name">Almanya</string>
+    <string name="country_ghana_name">Gana</string>
+    <string name="country_gibraltar_name">Cebelitarık</string>
+    <string name="country_greece_name">Yunanistan</string>
+    <string name="country_greenland_name">Grönland</string>
+    <string name="country_grenada_name">Grenada</string>
+    <string name="country_guatemala_name">Guatemala</string>
+    <string name="country_guinea_bissau_name">Gine-bissau</string>
+    <string name="country_guinea_name">Gine</string>
+    <string name="country_guyana_name">Guyana</string>
+    <string name="country_haiti_name">Haiti</string>
+    <string name="country_holy_see_vatican_city_state_name">Holy See (Vatikan)</string>
+    <string name="country_honduras_name">Honduras</string>
+    <string name="country_hong_kong_name">Hong Kong</string>
+    <string name="country_hungary_name">Macaristan</string>
+    <string name="country_iceland_name">İzlanda</string>
+    <string name="country_india_name">Hindistan</string>
+    <string name="country_indonesia_name">Endonezya</string>
+    <string name="country_iran_name">Iran</string>
+    <string name="country_iraq_name">Irak</string>
+    <string name="country_ireland_name">Irlanda</string>
+    <string name="country_isle_of_man_name">Isle Of Man</string>
+    <string name="country_israel_name">Israil</string>
+    <string name="country_italy_name">Italya</string>
+    <string name="country_jamaica_name">Jamaika</string>
+    <string name="country_japan_name">Japonya</string>
+    <string name="country_jordan_name">Ürdün</string>
+    <string name="country_kazakhstan_name">Kazakistan</string>
+    <string name="country_kenya_name">Kenya</string>
+    <string name="country_kiribati_name">Kiribati</string>
+    <string name="country_kosovo_name">Kosova</string>
+    <string name="country_kuwait_name">Kuveyt</string>
+    <string name="country_kyrgyzstan_name">Kırgızistan</string>
+    <string name="country_lao_peoples_democratic_republic_name">Lao Demokratik Cumhuriyeti</string>
+    <string name="country_latvia_name">Letonya</string>
+    <string name="country_lebanon_name">Lübnan</string>
+    <string name="country_lesotho_name">Lesoto</string>
+    <string name="country_liberia_name">Liberya</string>
+    <string name="country_libya_name">Libya</string>
+    <string name="country_liechtenstein_name">Liechtenstein</string>
+    <string name="country_lithuania_name">Litvanya</string>
+    <string name="country_luxembourg_name">Lüksemburg</string>
+    <string name="country_macao_name">Macao</string>
+    <string name="country_macedonia_name">Makedonya</string>
+    <string name="country_madagascar_name">Madagaskar</string>
+    <string name="country_malawi_name">Malavi</string>
+    <string name="country_malaysia_name">Malezya</string>
+    <string name="country_maldives_name">Maldivler</string>
+    <string name="country_mali_name">Mali</string>
+    <string name="country_malta_name">Malta</string>
+    <string name="country_marshall_islands_name">Marshall Adaları</string>
+    <string name="country_martinique_name">Martinik</string>
+    <string name="country_mauritania_name">Moritanya</string>
+    <string name="country_mauritius_name">Mauritus</string>
+    <string name="country_mayotte_name">Mayotte</string>
+    <string name="country_mexico_name">Meksika</string>
+    <string name="country_micronesia_name">Mikronezya</string>
+    <string name="country_moldova_name">Moldova</string>
+    <string name="country_monaco_name">Monaco</string>
+    <string name="country_mongolia_name">Moğolistan</string>
+    <string name="country_montenegro_name">Karadağ</string>
+    <string name="country_montserrat_name">Montserrat</string>
+    <string name="country_morocco_name">Fas</string>
+    <string name="country_mozambique_name">Mozambik</string>
+    <string name="country_myanmar_name">Myanmar</string>
+    <string name="country_namibia_name">Namibya</string>
+    <string name="country_nauru_name">Nauru</string>
+    <string name="country_nepal_name">Nepal</string>
+    <string name="country_netherlands_name">Hollanda</string>
+    <string name="country_new_caledonia_name">Yeni Kaledonya</string>
+    <string name="country_new_zealand_name">Yeni Zelanda</string>
+    <string name="country_nicaragua_name">Nikaragua</string>
+    <string name="country_niger_name">Nijer</string>
+    <string name="country_nigeria_name">Nijerya</string>
+    <string name="country_niue_name">Niue</string>
+    <string name="country_north_korea_name">Kuzey Kore</string>
+    <string name="country_norway_name">Norveç</string>
+    <string name="country_oman_name">Oman</string>
+    <string name="country_pakistan_name">Pakistan</string>
+    <string name="country_palau_name">Palau</string>
+    <string name="country_panama_name">Panama</string>
+    <string name="country_papua_new_guinea_name">Papua Yeni Gine</string>
+    <string name="country_paraguay_name">Paraguay</string>
+    <string name="country_peru_name">Peru</string>
+    <string name="country_philippines_name">Filipinler</string>
+    <string name="country_pitcairn_name">Pitcairn</string>
+    <string name="country_poland_name">Polonya</string>
+    <string name="country_portugal_name">Portekiz</string>
+    <string name="country_puerto_rico_name">Porto Riko</string>
+    <string name="country_qatar_name">Katar</string>
+    <string name="country_reunion_name">Réunion</string>
+    <string name="country_romania_name">Romanya</string>
+    <string name="country_russian_federation_name">Rusya Federasyonu</string>
+    <string name="country_rwanda_name">Ruanda</string>
+    <string name="country_saint_barthelemy_name">Saint Barthélemy</string>
+    <string name="country_saint_helena_name">Saint Helena</string>
+    <string name="country_saint_kitts_and_nevis_name">Saint Kitts ve Nevis</string>
+    <string name="country_saint_lucia_name">Saint Lucia</string>
+    <string name="country_saint_pierre_and_miquelon_name">Saint Pierre ve Miquelon</string>
+    <string name="country_saint_vincent_the_grenadines_name">Saint Vincent &amp; The Grenadines</string>
+    <string name="country_samoa_name">Samoa</string>
+    <string name="country_san_marino_name">San Marino</string>
+    <string name="country_sao_tome_and_principe_name">Sao Tome ve Principe</string>
+    <string name="country_saudi_arabia_name">Suudi Arabistan</string>
+    <string name="country_senegal_name">Senegal</string>
+    <string name="country_serbia_name">Sırbistan</string>
+    <string name="country_seychelles_name">Seyşeller</string>
+    <string name="country_sierra_leone_name">Sierra Leone</string>
+    <string name="country_singapore_name">Singapur</string>
+    <string name="country_sint_maarten_name">Sint Maarten</string>
+    <string name="country_slovakia_name">Slovakya</string>
+    <string name="country_slovenia_name">Slovenya</string>
+    <string name="country_solomon_islands_name">Solomon Adaları</string>
+    <string name="country_somalia_name">Somali</string>
+    <string name="country_south_africa_name">Güney Afrika</string>
+    <string name="country_south_korea_name">Güney Kore</string>
+    <string name="country_south_sudan_name">Güney Sudan</string>
+    <string name="country_spain_name">İspanya</string>
+    <string name="country_sri_lanka_name">Sri Lanka</string>
+    <string name="country_sudan_name">Sudan</string>
+    <string name="country_suriname_name">Surinam</string>
+    <string name="country_swaziland_name">Svaziland</string>
+    <string name="country_sweden_name">İsveç</string>
+    <string name="country_switzerland_name">İsviçre</string>
+    <string name="country_syrian_arab_republic_name">Suriye</string>
+    <string name="country_taiwan_name">Tayvan</string>
+    <string name="country_tajikistan_name">Tacikistan</string>
+    <string name="country_tanzania_name">Tanzanya</string>
+    <string name="country_thailand_name">Tayland</string>
+    <string name="country_the_democratic_republic_of_congo_name">Demokratik Kongo Cumhuriyeti</string>
+    <string name="country_timor_leste_name">Timor-leste</string>
+    <string name="country_togo_name">Togo</string>
+    <string name="country_tokelau_name">Tokelau</string>
+    <string name="country_tonga_name">Tonga</string>
+    <string name="country_trinidad_tobago_name">Trinidad &amp; Tobago</string>
+    <string name="country_tunisia_name">Tunus</string>
+    <string name="country_turkey_name">Türkiye Cumhuriyeti</string>
+    <string name="country_turkmenistan_name">Türkmenistan</string>
+    <string name="country_turks_and_caicos_islands_name">Turks ve Caicos Adaları</string>
+    <string name="country_tuvalu_name">Tuvalu</string>
+    <string name="country_uganda_name">Uganda</string>
+    <string name="country_ukraine_name">Ukrayna</string>
+    <string name="country_united_arab_emirates_name">Birleşik Arap Emirlikleri</string>
+    <string name="country_united_kingdom_name">Birleşik Krallık</string>
+    <string name="country_united_states_name">Amerika Birleşik Devletleri</string>
+    <string name="country_uruguay_name">Uruguay</string>
+    <string name="country_us_virgin_islands_name">US Virgin Adaları</string>
+    <string name="country_uzbekistan_name">Özbekistan</string>
+    <string name="country_vanuatu_name">Vanuatu</string>
+    <string name="country_venezuela_name">Venezuela</string>
+    <string name="country_viet_nam_name">Vietnam</string>
+    <string name="country_wallis_and_futuna_name">Wallis ve Futuna</string>
+    <string name="country_yemen_name">Yemen</string>
+    <string name="country_zambia_name">Zambiya</string>
+    <string name="country_zimbabwe_name">Zimbabve</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Bilinmeyen hata"</string>
+    <string name="error_icon_content_description">Hata</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Gelişmiş"</string>
+    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Parmak izi sensörüne dokunun"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Parmak izi donanımı kullanılamıyor."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"Bu cihazda parmak izi sensörü yok"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Çok fazla deneme yapıldı. Lütfen daha sonra tekrar deneyin."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Parmak izi kaydedilmedi."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Parmak izi işlemi kullanıcı tarafından iptal edildi."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Tanınmadı"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"PIN, desen veya şifre seti yok"</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Bu cihaz PIN, desen veya şifre kullanımını desteklemiyor"</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Kimlik doğrulama kullanıcı tarafından iptal edildi."</string>
+    <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="item_view_role_description">Sekme</string>
+    <string name="material_clock_toggle_content_description">ÖÖ veya ÖS\'yi seçin</string>
+    <string name="material_hour_selection">Saat seçin</string>
+    <string name="material_hour_suffix">Saat %1$s</string>
+    <string name="material_minute_selection">Dakikayı seçin</string>
+    <string name="material_minute_suffix">%1$s dakika</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Zaman girişi için saat moduna geçin.</string>
+    <string name="material_timepicker_hour">Saat</string>
+    <string name="material_timepicker_minute">Dakika</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Zamanı seçin</string>
+    <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d adetten fazla yeni bildirim</string>
+    <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_announce_current_selection">Geçerli seçim: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Tarih Seçin</string>
+    <string name="mtrl_picker_date_header_unselected">Seçilen tarih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Geçersiz biçim.</string>
+    <string name="mtrl_picker_invalid_format_example">Örnek: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Tarih biçimi: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Geçersiz aralık.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s yılına git</string>
+    <string name="mtrl_picker_out_of_range">İzin verilen aralığın dışında: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Başlangıç tarihi – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitiş tarihi</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Aralık Seçin</string>
+    <string name="mtrl_picker_range_header_unselected">Başlangıç tarihi - Bitiş tarihi</string>
+    <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_text_input_date_hint">Tarih</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Bitiş tarihi</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Başlangıç tarihi</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">a</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Yukarı git"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Gezinme çekmecesini aç"</string>
+    <string name="no_result_found">Sonuç bulunamadı</string>
+    <string msgid="478774118347071097" name="not_set">"Ayarlanmadı"</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" panoya kopyalandı."</string>
+    <string name="search_hint">Ara…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Ara"</string>
+    <string name="select_country">Ülke Seçiniz</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"KAPALI"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AÇIK"</string>
+</resources>

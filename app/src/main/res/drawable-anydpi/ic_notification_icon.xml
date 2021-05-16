@@ -1,0 +1,51 @@
+<!--
+  ~ Copyright (c) 2021. Yash Kasera
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:tint="#FFFFFF"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:scaleX="0.037793983"
+        android:scaleY="0.037793983"
+        android:translateX="1.8901099"
+        android:translateY="2.0790799">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M106.246,463.842L37.398,477.665C39.685,473.943 42.062,469.879 44.361,465.622C49.189,456.685 53.876,446.534 56.57,436.706C59.168,427.228 60.45,416.146 56.024,406.671L55.739,406.06L55.374,405.493L53.099,401.956L52.88,401.616L52.635,401.295L51.696,400.066C26.457,362.057 12.134,318.084 10.22,272.777C8.303,227.363 18.923,182.276 40.972,142.283C63.021,102.288 95.686,68.865 135.53,45.57C175.373,22.274 220.905,9.979 267.304,10C308.047,10.058 348.186,19.611 384.419,37.866C420.652,56.121 451.935,82.552 475.707,114.97C499.477,147.387 515.06,184.867 521.188,224.326C527.315,263.785 523.814,304.109 510.97,341.986C498.125,379.864 476.299,414.225 447.271,442.234C418.242,470.244 382.841,491.1 343.973,503.073C305.105,515.046 263.891,517.789 223.728,511.074C183.466,504.342 146.672,489.44 114.127,465.581L110.57,462.974L106.246,463.842Z"
+            android:strokeWidth="20"
+            android:strokeColor="#000000" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M197.72,286.348C211.125,286.348 221.992,275.678 221.992,262.517C221.992,249.355 211.125,238.685 197.72,238.685C184.314,238.685 173.447,249.355 173.447,262.517C173.447,275.678 184.314,286.348 197.72,286.348Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M267.313,286.348C280.719,286.348 291.586,275.678 291.586,262.517C291.586,249.355 280.719,238.685 267.313,238.685C253.908,238.685 243.041,249.355 243.041,262.517C243.041,275.678 253.908,286.348 267.313,286.348Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M339.563,286.348C352.968,286.348 363.835,275.678 363.835,262.517C363.835,249.355 352.968,238.685 339.563,238.685C326.157,238.685 315.29,249.355 315.29,262.517C315.29,275.678 326.157,286.348 339.563,286.348Z" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M266.555,394.892C341.018,394.892 401.382,335.626 401.382,262.517C401.382,189.408 341.018,130.141 266.555,130.141C192.092,130.141 131.728,189.408 131.728,262.517C131.728,335.626 192.092,394.892 266.555,394.892Z"
+            android:strokeWidth="20"
+            android:strokeColor="#000000" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M532.718,509.322L369.394,348.776L353.454,364.414L516.779,524.96L532.718,509.322Z" />
+    </group>
+</vector>

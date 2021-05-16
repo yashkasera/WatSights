@@ -1,0 +1,522 @@
+[
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/xml_root_preferences.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/xml/root_preferences.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_storage.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_storage.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_slide_background_5.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/slide_background_5.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_reply_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_reply_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_ios_new_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_call_cancelled.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_call_cancelled.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_storage_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_storage_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_slide_sticker_5.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_slide_sticker_5.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic__arrow_up.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic__arrow_up.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_notification_icon.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable-xhdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_call_missed.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_call_missed.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_call_voicemail.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_call_voicemail.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_notification_icon.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable-anydpi/ic_notification_icon.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_checkbox_blank_outline.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_checkbox_blank_outline.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_document.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_document.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_slide_background_4.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/slide_background_4.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/menu_menu_home.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/menu/menu_home.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/anim_fab_rotate_clock.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/anim/fab_rotate_clock.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_image_dialog.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_image_dialog.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_not_found.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_not_found.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_recycler_view.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_recycler_view.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_pause_circle_outline_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_pause_circle_outline_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_notification_icon.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable-hdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_keyboard_voice_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_keyboard_voice_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_audiotrack_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_audiotrack_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_round_headset_mic_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_round_headset_mic_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_rotate_right_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_rotate_right_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_notification_icon.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable-mdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_slide_sticker_3.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_slide_sticker_3.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_web_view.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_web_view.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_question_answer_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_question_answer_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_color_cursor.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/color_cursor.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_direct_chat.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_direct_chat.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_slide_background_3.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/slide_background_3.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/navigation_settings_navigation.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/navigation/settings_navigation.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_bubble_left_tail.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/bubble_left_tail.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_grid_on_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_grid_on_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_chat.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_add_keyword.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_add_keyword.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_faq.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_faq.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_list_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_list_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_motion_photos_on_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_motion_photos_on_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_message.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_message.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_stats_full.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/stats_full.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_privacy_policy.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_privacy_policy.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/font_poppins_bold.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/font/poppins_bold.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_welcome_slide0.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/welcome_slide0.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_slide_sticker_1.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_slide_sticker_1.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_slide_background_2.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/slide_background_2.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_video_library_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_video_library_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_image_view.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_image_view.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_send_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_send_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_whatsapp.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_whatsapp.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_group.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_group.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_more_options.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_more_options.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_call_incoming.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_call_incoming.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_important_filters_fragment.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/important_filters_fragment.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_check_box.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/check_box.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/anim_fab_open.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/anim/fab_open.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_notification_icon.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable-xxhdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_group_member.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_group_member.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_status.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_status.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_activity_welcome.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_stats_used.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/stats_used.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_slide_background_1.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/slide_background_1.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_info.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_info.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_direct_message.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_direct_message.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_slide_sticker_2.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_slide_sticker_2.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/menu_menu_view_files.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/menu/menu_view_files.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_keywords.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_keywords.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_reply.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_reply.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_privacy_tip_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_privacy_tip_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_stop_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_stop_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/menu_menu_info.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/menu/menu_info.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_image.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_image.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_welcome_slide1.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/welcome_slide1.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_photo_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_photo_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_video_dialog.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_video_dialog.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_audio.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_audio.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_delete_outline_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_delete_outline_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_file_download_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_file_download_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_terms_of_use.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_terms_of_use.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_call_log.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_call_log.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_call_log.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_call_log.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_group_info.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_group_info.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_crown.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_crown.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/font_poppins.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/font/poppins.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_dialog_video_view.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/dialog_video_view.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_contact_us.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_contact_us.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_other_filter.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_other_filter.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_item_status.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/item_status.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_stats_progress.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/stats_progress.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_call_log.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_call_log.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_info_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_check_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_share_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/anim_fab_close.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/anim/fab_close.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_call_outgoing.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_call_outgoing.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_close_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_slide_sticker_4.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_slide_sticker_4.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_picture_as_pdf_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_picture_as_pdf_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_checkbox_marked.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/checkbox_marked.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/anim_fab_rotate_anticlock.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/anim/fab_rotate_anticlock.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_baseline_wallpaper_24.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_baseline_wallpaper_24.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/layout_fragment_elite.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/layout/fragment_elite.xml"
+    },
+    {
+        "merged": "/Users/yashkasera/Development/App-Dev/WatSights/app/build/intermediates/res/merged/debug/drawable_ic_video_play.xml.flat",
+        "source": "/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/res/drawable/ic_video_play.xml"
+    }
+]

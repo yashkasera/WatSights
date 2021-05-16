@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021. Yash Kasera
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.storage.StorageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/linearLayout"
+                app:layout_constraintHorizontal_bias="0.5">
+
+                <ProgressBar
+                    android:id="@+id/background_progressbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/stats_full"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/progress_total_used"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/stats_used"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/progress_other_used"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/stats_progress"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/pie_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/background_progressbar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/stats_progress"
+                    android:text="@string/whatsapp"
+                    app:drawableLeftCompat="@drawable/ic_baseline_stop_24"
+                    app:drawableTint="#FF8A65" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/other_apps"
+                    app:drawableLeftCompat="@drawable/ic_baseline_stop_24"
+                    app:drawableTint="#81D4FA" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/free_space"
+                    app:drawableLeftCompat="@drawable/ic_baseline_stop_24"
+                    app:drawableTint="#AED581" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView"
+                        android:layout_alignBottom="@id/textView"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_photo_24"
+                        app:tint="@color/color_1" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text1"
+                        android:layout_toEndOf="@id/imageView"
+                        android:text="@string/images"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressPhotos"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_1" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView2"
+                        android:layout_alignBottom="@id/textView2"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_video_library_24"
+                        app:tint="@color/color_2" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text2"
+                        android:layout_toEndOf="@id/imageView2"
+                        android:text="@string/videos"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressVideos"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView2"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_2" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView3"
+                        android:layout_alignBottom="@id/textView3"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_audiotrack_24"
+                        app:tint="@color/color_3" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text3"
+                        android:layout_toEndOf="@id/imageView3"
+                        android:text="@string/audio"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressAudio"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView3"
+                        android:layout_alignParentBottom="true"
+
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_3" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView4"
+                        android:layout_alignBottom="@id/textView4"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_picture_as_pdf_24"
+                        app:tint="@color/color_4" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text4"
+                        android:layout_toEndOf="@id/imageView4"
+                        android:text="@string/documents"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressDocuments"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView4"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_4" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView5"
+                        android:layout_alignBottom="@id/textView5"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_motion_photos_on_24"
+                        app:tint="@color/color_5" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text5"
+                        android:layout_toEndOf="@id/imageView5"
+                        android:text="@string/gifs"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressGIF"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView5"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_5" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView6"
+                        android:layout_alignBottom="@id/textView6"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_keyboard_voice_24"
+                        app:tint="@color/color_6" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text6"
+                        android:layout_toEndOf="@id/imageView6"
+                        android:text="@string/voice_notes"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressVoice"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView6"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_6" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView7"
+                        android:layout_alignBottom="@id/textView7"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_wallpaper_24"
+                        app:tint="@color/color_7" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text7"
+                        android:layout_toEndOf="@id/imageView7"
+                        android:text="@string/wallpapers"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressWallpapers"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView7"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_7" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_marginVertical="@dimen/margin_small"
+                app:cardBackgroundColor="@color/card_background_color"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/textView8"
+                        android:layout_alignBottom="@id/textView8"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_wallpaper_24"
+                        app:tint="@color/color_8" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_toStartOf="@+id/text8"
+                        android:layout_toEndOf="@id/imageView8"
+                        android:text="@string/stickers"
+                        android:textAppearance="@style/heading2" />
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:alpha="0.7"
+                        android:text="@string/_0_b"
+                        android:textAppearance="@style/subtitle1" />
+
+                    <ProgressBar
+                        android:id="@+id/progressStickers"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView8"
+                        android:layout_alignParentBottom="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/color_8" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="20dp">
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

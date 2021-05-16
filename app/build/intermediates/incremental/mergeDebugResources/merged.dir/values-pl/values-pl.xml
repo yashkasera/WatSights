@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nowe powiadomienie</item>
+    <item quantity="few">%d nowe powiadomienia</item>
+    <item quantity="many">%d nowych powiadomień</item>
+    <item quantity="other">%d nowego powiadomienia</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Przejdź na stronę główną"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Przejdź wyżej"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Więcej opcji"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gotowe"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Pokaż wszystko"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Wybierz aplikację"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"WYŁ."</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"WŁ."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funkcyjny+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spacja"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Szukaj…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Wyczyść zapytanie"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Zapytanie"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Szukaj"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Wyślij zapytanie"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Wyszukiwanie głosowe"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Udostępnij przez:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Udostępnij przez: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Zwiń"</string>
+    <string name="bottomsheet_action_expand_halfway">Rozwiń do połowy</string>
+    <string name="character_counter_content_description">%1$d z %2$d znaków</string>
+    <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Wyczyść tekst</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Użyj hasła"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiuj"</string>
+    <string name="country_afghanistan_name">Afganistan</string>
+    <string name="country_aland_islands_name">Wyspy Alandzkie</string>
+    <string name="country_albania_name">Albania</string>
+    <string name="country_algeria_name">Algieria</string>
+    <string name="country_american_samoa_name">Samoa Amerykańskie</string>
+    <string name="country_andorra_name">Andora</string>
+    <string name="country_angola_name">Angola</string>
+    <string name="country_anguilla_name">Anguilla</string>
+    <string name="country_antarctica_name">Antarktyda</string>
+    <string name="country_antigua_and_barbuda_name">Antigua i Barbuda</string>
+    <string name="country_argentina_name">Argentyna</string>
+    <string name="country_armenia_name">Armenia</string>
+    <string name="country_aruba_name">Aruba</string>
+    <string name="country_australia_name">Australia</string>
+    <string name="country_austria_name">Austria</string>
+    <string name="country_azerbaijan_name">Azerbejdżan</string>
+    <string name="country_bahamas_name">Bahamy</string>
+    <string name="country_bahrain_name">Bahrajn</string>
+    <string name="country_bangladesh_name">Bangladesz</string>
+    <string name="country_barbados_name">Barbados</string>
+    <string name="country_belarus_name">Białoruś</string>
+    <string name="country_belgium_name">Belgia</string>
+    <string name="country_belize_name">Belize</string>
+    <string name="country_benin_name">Benin</string>
+    <string name="country_bermuda_name">Bermudy</string>
+    <string name="country_bhutan_name">Bhutan</string>
+    <string name="country_bolivia_name">Boliwia</string>
+    <string name="country_bosnia_and_herzegovina_name">Bośnia i Hercegowina</string>
+    <string name="country_botswana_name">Botswana</string>
+    <string name="country_brazil_name">Brazylia</string>
+    <string name="country_british_virgin_islands_name">Brytyjskie Wyspy Dziewicze</string>
+    <string name="country_brunei_darussalam_name">Brunei</string>
+    <string name="country_bulgaria_name">Bułgaria</string>
+    <string name="country_burkina_faso_name">Burkina Faso</string>
+    <string name="country_burundi_name">Burundi</string>
+    <string name="country_cambodia_name">Kambodża</string>
+    <string name="country_cameroon_name">Kamerun</string>
+    <string name="country_canada_name">Kanada</string>
+    <string name="country_cape_verde_name">Republika Zielonego Przylądka</string>
+    <string name="country_cayman_islands_name">Kajmany</string>
+    <string name="country_central_african_republic_name">Republika Środkowoafrykańska</string>
+    <string name="country_chad_name">Czad</string>
+    <string name="country_chile_name">Chile</string>
+    <string name="country_china_name">Chiny</string>
+    <string name="country_christmas_island_name">Wyspa Bożego Narodzenia</string>
+    <string name="country_cocos_keeling_islands_name">Wyspy Kokosowe</string>
+    <string name="country_colombia_name">Kolumbia</string>
+    <string name="country_comoros_name">Komory</string>
+    <string name="country_congo_name">Kongo</string>
+    <string name="country_cook_islands_name">Wyspy Cooka</string>
+    <string name="country_costa_rica_name">Kostaryka</string>
+    <string name="country_cote_d_ivoire_name">Côte d’Ivoire</string>
+    <string name="country_croatia_name">Chorwacja</string>
+    <string name="country_cuba_name">Kuba</string>
+    <string name="country_cyprus_name">Cypr</string>
+    <string name="country_czech_republic_name">Czechy</string>
+    <string name="country_denmark_name">Dania</string>
+    <string name="country_djibouti_name">Dżibuti</string>
+    <string name="country_dominica_name">Dominika</string>
+    <string name="country_dominican_republic_name">Dominikana</string>
+    <string name="country_ecuador_name">Ekwador</string>
+    <string name="country_egypt_name">Egipt</string>
+    <string name="country_el_salvador_name">Salwador</string>
+    <string name="country_equatorial_guinea_name">Gwinea Równikowa</string>
+    <string name="country_eritrea_name">Erytrea</string>
+    <string name="country_estonia_name">Estonia</string>
+    <string name="country_ethiopia_name">Etiopia</string>
+    <string name="country_falkland_islands_malvinas_name">Falklandy (Malwiny)</string>
+    <string name="country_faroe_islands_name">Wyspy Owcze</string>
+    <string name="country_fiji_name">Fidżi</string>
+    <string name="country_finland_name">Finlandia</string>
+    <string name="country_france_name">Francja</string>
+    <string name="country_french_guyana_name">Gujana Francuska</string>
+    <string name="country_french_polynesia_name">Polinezja Francuska</string>
+    <string name="country_gabon_name">Gabon</string>
+    <string name="country_gambia_name">Gambia</string>
+    <string name="country_georgia_name">Gruzja</string>
+    <string name="country_germany_name">Niemcy</string>
+    <string name="country_ghana_name">Ghana</string>
+    <string name="country_gibraltar_name">Gibraltar</string>
+    <string name="country_greece_name">Grecja</string>
+    <string name="country_greenland_name">Grenlandia</string>
+    <string name="country_grenada_name">Grenada</string>
+    <string name="country_guatemala_name">Gwatemala</string>
+    <string name="country_guinea_bissau_name">Gwinea Bissau</string>
+    <string name="country_guinea_name">Gwinea</string>
+    <string name="country_guyana_name">Gujana</string>
+    <string name="country_haiti_name">Haiti</string>
+    <string name="country_holy_see_vatican_city_state_name">Watykan</string>
+    <string name="country_honduras_name">Honduras</string>
+    <string name="country_hong_kong_name">Hongkong</string>
+    <string name="country_hungary_name">Węgry</string>
+    <string name="country_iceland_name">Islandia</string>
+    <string name="country_india_name">Indie</string>
+    <string name="country_indonesia_name">Indonezja</string>
+    <string name="country_iran_name">Iran</string>
+    <string name="country_iraq_name">Irak</string>
+    <string name="country_ireland_name">Irlandia</string>
+    <string name="country_isle_of_man_name">Wyspa Man</string>
+    <string name="country_israel_name">Izrael</string>
+    <string name="country_italy_name">Włochy</string>
+    <string name="country_jamaica_name">Jamajka</string>
+    <string name="country_japan_name">Japonia</string>
+    <string name="country_jordan_name">Jordania</string>
+    <string name="country_kazakhstan_name">Kazachstan</string>
+    <string name="country_kenya_name">Kenia</string>
+    <string name="country_kiribati_name">Kiribati</string>
+    <string name="country_kosovo_name">Kosovo</string>
+    <string name="country_kuwait_name">Kuwejt</string>
+    <string name="country_kyrgyzstan_name">Kirgistan</string>
+    <string name="country_lao_peoples_democratic_republic_name">Laos</string>
+    <string name="country_latvia_name">Łotwa</string>
+    <string name="country_lebanon_name">Liban</string>
+    <string name="country_lesotho_name">Lesotho</string>
+    <string name="country_liberia_name">Liberia</string>
+    <string name="country_libya_name">Libia</string>
+    <string name="country_liechtenstein_name">Liechtenstein</string>
+    <string name="country_lithuania_name">Litwa</string>
+    <string name="country_luxembourg_name">Luksemburg</string>
+    <string name="country_macao_name">Makau</string>
+    <string name="country_macedonia_name">Była Jugosłowiańska Republika Macedonii</string>
+    <string name="country_madagascar_name">Madagaskar</string>
+    <string name="country_malawi_name">Malawi</string>
+    <string name="country_malaysia_name">Malezja</string>
+    <string name="country_maldives_name">Malediwy</string>
+    <string name="country_mali_name">Mali</string>
+    <string name="country_malta_name">Malta</string>
+    <string name="country_marshall_islands_name">Wyspy Marshalla</string>
+    <string name="country_martinique_name">Martynika</string>
+    <string name="country_mauritania_name">Mauretania</string>
+    <string name="country_mauritius_name">Mauritius</string>
+    <string name="country_mayotte_name">Majotta</string>
+    <string name="country_mexico_name">Meksyk</string>
+    <string name="country_micronesia_name">Mikronezja</string>
+    <string name="country_moldova_name">Mołdawia</string>
+    <string name="country_monaco_name">Monako</string>
+    <string name="country_mongolia_name">Mongolia</string>
+    <string name="country_montenegro_name">Czarnogóra</string>
+    <string name="country_montserrat_name">Montserrat</string>
+    <string name="country_morocco_name">Maroko</string>
+    <string name="country_mozambique_name">Mozambik</string>
+    <string name="country_myanmar_name">Mjanma (Birma)</string>
+    <string name="country_namibia_name">Namibia</string>
+    <string name="country_nauru_name">Nauru</string>
+    <string name="country_nepal_name">Nepal</string>
+    <string name="country_netherlands_name">Holandia</string>
+    <string name="country_new_caledonia_name">Nowa Kaledonia</string>
+    <string name="country_new_zealand_name">Nowa Zelandia</string>
+    <string name="country_nicaragua_name">Nikaragua</string>
+    <string name="country_niger_name">Niger</string>
+    <string name="country_nigeria_name">Nigeria</string>
+    <string name="country_niue_name">Niue</string>
+    <string name="country_north_korea_name">Korea Północna</string>
+    <string name="country_norway_name">Norwegia</string>
+    <string name="country_oman_name">Oman</string>
+    <string name="country_pakistan_name">Pakistan</string>
+    <string name="country_palau_name">Palau</string>
+    <string name="country_panama_name">Panama</string>
+    <string name="country_papua_new_guinea_name">Papua-Nowa Gwinea</string>
+    <string name="country_paraguay_name">Paragwaj</string>
+    <string name="country_peru_name">Peru</string>
+    <string name="country_philippines_name">Filipiny</string>
+    <string name="country_pitcairn_name">Pitcairn</string>
+    <string name="country_poland_name">Polska</string>
+    <string name="country_portugal_name">Portugalia</string>
+    <string name="country_puerto_rico_name">Portoryko</string>
+    <string name="country_qatar_name">Katar</string>
+    <string name="country_reunion_name">Reunion</string>
+    <string name="country_romania_name">Rumunia</string>
+    <string name="country_russian_federation_name">Rosja</string>
+    <string name="country_rwanda_name">Rwanda</string>
+    <string name="country_saint_barthelemy_name">Saint-Barthélemy</string>
+    <string name="country_saint_helena_name">Wyspa Świętej Heleny</string>
+    <string name="country_saint_kitts_and_nevis_name">Saint Kitts i Nevis</string>
+    <string name="country_saint_lucia_name">Saint Lucia</string>
+    <string name="country_saint_pierre_and_miquelon_name">Saint-Pierre i Miquelon</string>
+    <string name="country_saint_vincent_the_grenadines_name">Saint Vincent i Grenadyny</string>
+    <string name="country_samoa_name">Samoa</string>
+    <string name="country_san_marino_name">San Marino</string>
+    <string name="country_sao_tome_and_principe_name">Wyspy Świętego Tomasza i Książęca</string>
+    <string name="country_saudi_arabia_name">Arabia Saudyjska</string>
+    <string name="country_senegal_name">Senegal</string>
+    <string name="country_serbia_name">Serbia</string>
+    <string name="country_seychelles_name">Seszele</string>
+    <string name="country_sierra_leone_name">Sierra Leone</string>
+    <string name="country_singapore_name">Singapur</string>
+    <string name="country_sint_maarten_name">Sint Maarten</string>
+    <string name="country_slovakia_name">Słowacja</string>
+    <string name="country_slovenia_name">Słowenia</string>
+    <string name="country_solomon_islands_name">Wyspy Salomona</string>
+    <string name="country_somalia_name">Somalia</string>
+    <string name="country_south_africa_name">Republika Południowej Afryki</string>
+    <string name="country_south_korea_name">Korea Południowa</string>
+    <string name="country_south_sudan_name">Sudan Południowy</string>
+    <string name="country_spain_name">Hiszpania</string>
+    <string name="country_sri_lanka_name">Sri Lanka</string>
+    <string name="country_sudan_name">Sudan</string>
+    <string name="country_suriname_name">Surinam</string>
+    <string name="country_swaziland_name">Suazi</string>
+    <string name="country_sweden_name">Szwecja</string>
+    <string name="country_switzerland_name">Szwajcaria</string>
+    <string name="country_syrian_arab_republic_name">Syria</string>
+    <string name="country_taiwan_name">Tajwan</string>
+    <string name="country_tajikistan_name">Tadżykistan</string>
+    <string name="country_tanzania_name">Tanzania</string>
+    <string name="country_thailand_name">Tajlandia</string>
+    <string name="country_the_democratic_republic_of_congo_name">Demokratyczna Republika Konga</string>
+    <string name="country_timor_leste_name">Timor Wschodni</string>
+    <string name="country_togo_name">Togo</string>
+    <string name="country_tokelau_name">Tokelau</string>
+    <string name="country_tonga_name">Tonga</string>
+    <string name="country_trinidad_tobago_name">Trynidad i Tobago</string>
+    <string name="country_tunisia_name">Tunezja</string>
+    <string name="country_turkey_name">Turcja</string>
+    <string name="country_turkmenistan_name">Turkmenistan</string>
+    <string name="country_turks_and_caicos_islands_name">Turks i Caicos</string>
+    <string name="country_tuvalu_name">Tuvalu</string>
+    <string name="country_uganda_name">Uganda</string>
+    <string name="country_ukraine_name">Ukraina</string>
+    <string name="country_united_arab_emirates_name">Zjednoczone Emiraty Arabskie</string>
+    <string name="country_united_kingdom_name">Wielka Brytania</string>
+    <string name="country_united_states_name">Stany Zjednoczone</string>
+    <string name="country_uruguay_name">Urugwaj</string>
+    <string name="country_us_virgin_islands_name">Wyspy Dziewicze Stanów Zjednoczonych</string>
+    <string name="country_uzbekistan_name">Uzbekistan</string>
+    <string name="country_vanuatu_name">Vanuatu</string>
+    <string name="country_venezuela_name">Wenezuela</string>
+    <string name="country_viet_nam_name">Wietnam</string>
+    <string name="country_wallis_and_futuna_name">Wallis i Futuna</string>
+    <string name="country_yemen_name">Jemen</string>
+    <string name="country_zambia_name">Zambia</string>
+    <string name="country_zimbabwe_name">Zimbabwe</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Nieznany błąd"</string>
+    <string name="error_icon_content_description">Błąd</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Zaawansowane"</string>
+    <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Dotknij czytnika linii papilarnych"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Czytnik linii papilarnych nie jest dostępny."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"To urządzenie nie jest wyposażone w czytnik linii papilarnych"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Zbyt wiele prób. Spróbuj ponownie później."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Nie zarejestrowano odcisków palców."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Odczyt odcisku palca został anulowany przez użytkownika."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Nie rozpoznano"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"Nie ustawiono kodu PIN, wzoru ani hasła."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"To urządzenie nie obsługuje kodu PIN, wzoru ani hasła."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Użytkownik anulował uwierzytelnianie."</string>
+    <string name="icon_content_description">Ikona okna</string>
+    <string name="item_view_role_description">Karta</string>
+    <string name="material_clock_toggle_content_description">Wybierz: przed południem czy po południu</string>
+    <string name="material_hour_selection">Wybierz godzinę</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Wybierz minuty</string>
+    <string name="material_minute_suffix">%1$s minut</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Aby wprowadzić czas, włącz tryb zegara.</string>
+    <string name="material_timepicker_hour">Godzina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Określ czas</string>
+    <string name="material_timepicker_text_input_mode_description">Aby wprowadzić czas, włącz tryb wprowadzania tekstu.</string>
+    <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
+    <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Liczba nowych powiadomień przekracza %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="mtrl_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
+    <string name="mtrl_picker_announce_current_selection">Bieżący wybór: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Wybierz datę</string>
+    <string name="mtrl_picker_date_header_unselected">Wybrana data</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolumna z dniami: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Nieprawidłowy format.</string>
+    <string name="mtrl_picker_invalid_format_example">Przykład: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Użyj formatu: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Nieprawidłowy zakres.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$s</string>
+    <string name="mtrl_picker_out_of_range">Poza zakresem: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data rozpoczęcia – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data zakończenia</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Wybierz zakres</string>
+    <string name="mtrl_picker_range_header_unselected">Data rozpoczęcia – data zakończenia</string>
+    <string name="mtrl_picker_save">Zapisz</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data zakończenia</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data rozpoczęcia</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Włącz kalendarzowy tryb wprowadzania</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, by wybrać dzień</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Włącz tekstowy tryb wprowadzania</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, by wybrać rok</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Przejdź wyżej"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Otwórz panel nawigacji"</string>
+    <string name="no_result_found">Nie znaleziono wyników</string>
+    <string msgid="478774118347071097" name="not_set">"Nie ustawiono"</string>
+    <string name="password_toggle_content_description">Pokaż hasło</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Skopiowano „<ns1:g id="SUMMARY">%1$s</ns1:g>” do schowka."</string>
+    <string name="search_hint">Szukaj …</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Szukaj"</string>
+    <string name="select_country">Wybierz kraj</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"WYŁ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"WŁ."</string>
+</resources>

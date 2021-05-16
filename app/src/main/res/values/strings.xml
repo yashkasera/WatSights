@@ -1,0 +1,186 @@
+<!--
+  ~ Copyright (c) 2021. Yash Kasera
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">WatSights</string>
+    <string name="title_home">Home</string>
+    <string name="title_direct">Direct Messages</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_storage">Storage</string>
+    <string name="title_deleted">Deleted Media</string>
+    <string name="title_contact_us">Contact Us</string>
+    <string name="media_observer_service">Media Observer Service</string>
+    <string name="IMPORTANT_NOTIFICATION_CHANNEL">Important Notifications</string>
+    <string name="MENTION_NOTIFICATION_CHANNEL">Mentions</string>
+    <string name="ELITE_NOTIFICATION_CHANNEL">Elite Messages</string>
+    <string name="DELETED_MEDIA_NOTIFICATION_CHANNEL">Deleted Media</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="name_input_dialog_text">Please put in the same name you used in whatsapp to get a notification when someone mentions you.\nCopy the exact name from Whatsapp with emojis (if used) for better results </string>
+    <string name="title_more_options">More</string>
+    <string name="no_results">Sorry!  No results found :(</string>
+
+    <string-array name="welcome_title">
+        <item>Important Messages</item>
+        <item>Direct Message</item>
+        <item>Elite Members</item>
+        <item>Notifications</item>
+        <item>Storage</item>
+    </string-array>
+
+    <string-array name="welcome_text">
+        <item>Browse through your important messages that you might have missed during a conversation</item>
+        <item>Now conveniently text an unknown number on whatsapp without saving it</item>
+        <item>Select important contacts as Elite Members and directly view their messages</item>
+        <item>Get notified when someone sends an important message or mentions you, so you dont miss out on something important</item>
+        <item>One stop destination for all your whatsapp media</item>
+    </string-array>
+    <string name="question1">Q. What is WatSights?</string>
+    <string name="answer1">Our core idea is to try and make sure that you do cover up majority of those important messages and let internet be less harsh on you.</string>
+    <string name="question2">Q. How does it work?</string>
+    <string name="answer2">WatSights scans your message notifications and stores them locally in a database on your device. This database is only accessible to you through this app and no one (not even other apps on your phone) has access to those messages. When someone sends you a message, you get a notification. This app reads the text in the notification and determines if the message is important or not using keywords. It searches for possible combinations like links, phone numbers, email addresses, meeting links, etc.
+Similarly it listens for media changes when a new media is added on your phone and if the media is deleted, it is copied in a folder on your phone. So even if the person deletes it, you still have access to that media.</string>
+    <string name="question3">Q. Who are elite members</string>
+    <string name="answer3">Elite members are those who you think are important and don’t want to miss their messages. Select important contacts as Elite Members and directly view their messages</string>
+    <string name="question4">Q. Who are spammers?</string>
+    <string name="answer4">Spammers are those people who spam a lot of messages and their messages are not so important.</string>
+    <string name="question5">Q. Why do you need notification access?</string>
+    <string name="answer5">The main objective of this app is to filter out important messages from the spam ones. In order to read those messages, this app requires notification access.</string>
+    <string name="question6">Q. Why do you need storage access?</string>
+    <string name="answer6">This app lets you to view Whatsapp media and delete pointless stickers and gifs, we need access to manage your data. This does not let the app delete anything without your permission</string>
+    <string name="question7">Q. Can you see my messages?</string>
+    <string name="answer7">WatSights scans your message notifications and stores them locally in a database on your device. This database is only accessible to you through this app and no one (not even other apps on your phone) has access to those messages. You can even turn on biometrics to prevent unauthoried access to those messages</string>
+    <string name="question8">Q. How can we contact you?</string>
+    <string name="answer8">You can contact us through our mail id yashkasera@icloud.com or you can visit our website for more assistance</string>
+
+    <string name="privacy_policy1">Your privacy is important to us. It is Watsights policy to respect your privacy regarding any information we may collect from you through our app and other sites we own and operate.
+</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy2">This app is totally offline. We do not collect any data from you, not even your name. All data used by this app is stored locally on your phone and will be removed when you uninstall the app. It may contain external links which will redirect you to web pages which are not owned by us.</string>
+    <string name="privacy_policy3">Our app may link to external apps that are not operated by us. Please be aware that we have no control over the content and practices of these apps, and cannot accept responsibility or liability for their respective privacy policies.</string>
+    <string name="privacy_policy4">You are free to refuse our request for notification and storage access, with the understanding that we may be unable to provide you with some of your desired services.</string>
+    <string name="privacy_policy5">Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions regarding anything related to this app please feel free to contact us.</string>
+    <string name="privacy_policy6">For more details about our privacy policy, please visit our website.</string>
+    <string name="privacy_policy7">If you have any questions about this Privacy Policy, You can contact us: \nBy email: yashkasera@icloud.com</string>
+    <string name="privacy_policy8">This policy is effective as of 9th April 2021.</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="license_details">Apache License Version 2.0</string>
+
+    <string name="copyright">Copyright © 2021 Yash Kasera</string>
+
+    <string name="terms_of_use1">
+        Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at \n\n
+        <strong><a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a></strong>
+
+        \n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+    </string>
+    <!--    <string name="terms_of_use1">"<strong>License</strong>" shall mean the terms and conditions for use, reproduction, and-->
+    <!--				distribution as defined by Sections 1 through 9 of this document.</string>-->
+    <string name="not_found">Not found</string>
+    <string name="delete">Delete</string>
+    <string name="close">close</string>
+    <string name="rotate">Rotate</string>
+    <string name="download">Download</string>
+    <string name="allow_access">Allow Access</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="done">DONE</string>
+    <string name="sender">Sender</string>
+    <string name="sample_date">27/12/2000</string>
+    <string name="app_logo">App Logo</string>
+    <string name="welcome">WELCOME</string>
+    <string name="welcome_message">Before proceeding, there are a few things we\'d like to request for this app to work properly.</string>
+    <string name="your_whatsapp_username">Your Whatsapp Username</string>
+    <string name="include_all_emojis_and_symbols">Include all emojis and symbols</string>
+    <string name="group_name">Group Name</string>
+    <string name="options">Options</string>
+    <string name="store_messages">Store Messages</string>
+    <string name="members">Members</string>
+    <string name="logo">LOGO</string>
+    <string name="play">Play</string>
+    <string name="info">Info</string>
+    <string name="view_as">View as</string>
+    <string name="share">Share</string>
+    <string name="select_all">Select All</string>
+    <string name="keyword">Keyword</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="contact_us_info">Have any suggestions or queries? We\'d love to hear it from you. You can write to us directly at yashkasera@icloud.com or you can use the form below :</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="filter1">If the message contains :</string>
+    <string name="phone_numbers">Phone Numbers</string>
+    <string name="email_addresses">Email addresses</string>
+    <string name="date">Date</string>
+    <string name="filter2"><![CDATA[Length > 500 characters]]></string>
+    <string name="filter3">​Red Dot 🔴</string>
+    <string name="sticker">sticker</string>
+    <string name="important_messages">Important Messages</string>
+    <string name="welcome1">Browse through your important messages that you might have missed during a conversation</string>
+    <string name="faqs">FAQs</string>
+    <string name="view_on_site">View on Site</string>
+    <string name="enable_filter">Enable filter</string>
+    <string name="filter_all_links">Filter all links</string>
+    <string name="filter_all_except_blacklisted">Filter all except blacklisted</string>
+    <string name="filter_only_whitelisted">Filter only whitelisted</string>
+    <string name="don_t_filter_links">Don\'t filter links</string>
+    <string name="whitelisted">Whitelisted</string>
+    <string name="all_links">All links</string>
+    <string name="blacklisted">Blacklisted</string>
+    <string name="sent_by_all">Sent By : All</string>
+    <string name="important">important</string>
+    <string name="spammer">spammer</string>
+    <string name="whatsapp_logo">Whatsapp Logo</string>
+    <string name="direct_message">Tired of saving numbers to your Contacts for sharing just a line of text? We have a solution for that. Use our direct message feature to directly send message to a number without saving it in your phone</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="message_optional">Message (Optional)</string>
+    <string name="status_downloader">Status Downloader</string>
+    <string name="additional_features">Additional Features</string>
+    <string name="deleted_media">Deleted Media</string>
+    <string name="about">About</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="delete_app_data">This will delete all the messages and media you have downloaded through this app. This includes status video downloads, deleted media and all the messages.\nThis action cannot be undone. Do you still want to proceed?</string>
+    <string name="clear_data">This will clear all the groups,members and messages (including pinned and important) and resets the status of al the members.\nThis action cannot be undone. Do you still want to proceed?</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="other_apps">Other Apps</string>
+    <string name="free_space">Free Space</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="audio">Audio</string>
+    <string name="documents">Documents</string>
+    <string name="gifs">GIFs</string>
+    <string name="voice_notes">Voice Notes</string>
+    <string name="wallpapers">Wallpapers</string>
+    <string name="stickers">Stickers</string>
+    <string name="_0_b">0 B</string>
+    <string name="view_full_text">View Full Text</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="type">Type</string>
+    <string name="number">Number</string>
+    <string name="time">Time</string>
+    <string name="duration">Duration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

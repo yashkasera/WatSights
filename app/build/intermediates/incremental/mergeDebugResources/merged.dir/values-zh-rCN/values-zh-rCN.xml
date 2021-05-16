@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 条新通知</item>
+    <item quantity="other">%d 条新通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"转到首页"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"关闭"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"开启"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格键"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享对象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"与<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
+    <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"使用密码"</string>
+    <string msgid="3209159573327985035" name="copy">"复制"</string>
+    <string name="country_afghanistan_name">阿富汗</string>
+    <string name="country_aland_islands_name">奥兰群岛</string>
+    <string name="country_albania_name">阿尔巴尼亚</string>
+    <string name="country_algeria_name">阿尔及利亚</string>
+    <string name="country_american_samoa_name">美属萨摩亚</string>
+    <string name="country_andorra_name">安道尔</string>
+    <string name="country_angola_name">安哥拉</string>
+    <string name="country_anguilla_name">安圭拉</string>
+    <string name="country_antarctica_name">南极洲</string>
+    <string name="country_antigua_and_barbuda_name">安提瓜和巴布达</string>
+    <string name="country_argentina_name">阿根廷</string>
+    <string name="country_armenia_name">亚美尼亚</string>
+    <string name="country_aruba_name">阿鲁巴</string>
+    <string name="country_australia_name">澳大利亚</string>
+    <string name="country_austria_name">奥地利</string>
+    <string name="country_azerbaijan_name">阿塞拜疆</string>
+    <string name="country_bahamas_name">巴哈马</string>
+    <string name="country_bahrain_name">巴林</string>
+    <string name="country_bangladesh_name">孟加拉国</string>
+    <string name="country_barbados_name">巴巴多斯</string>
+    <string name="country_belarus_name">白俄罗斯</string>
+    <string name="country_belgium_name">比利时</string>
+    <string name="country_belize_name">伯利兹</string>
+    <string name="country_benin_name">贝宁</string>
+    <string name="country_bermuda_name">百慕大</string>
+    <string name="country_bhutan_name">不丹</string>
+    <string name="country_bolivia_name">玻利维亚</string>
+    <string name="country_bosnia_and_herzegovina_name">波斯尼亚和黑塞哥维那</string>
+    <string name="country_botswana_name">博茨瓦纳</string>
+    <string name="country_brazil_name">巴西</string>
+    <string name="country_british_virgin_islands_name">英属维尔京群岛</string>
+    <string name="country_brunei_darussalam_name">文莱</string>
+    <string name="country_bulgaria_name">保加利亚</string>
+    <string name="country_burkina_faso_name">布基纳法索</string>
+    <string name="country_burundi_name">布隆迪</string>
+    <string name="country_cambodia_name">柬埔寨</string>
+    <string name="country_cameroon_name">喀麦隆</string>
+    <string name="country_canada_name">加拿大</string>
+    <string name="country_cape_verde_name">佛得角</string>
+    <string name="country_cayman_islands_name">开曼群岛</string>
+    <string name="country_central_african_republic_name">中非共和国</string>
+    <string name="country_chad_name">乍得</string>
+    <string name="country_chile_name">智利</string>
+    <string name="country_china_name">中国</string>
+    <string name="country_christmas_island_name">圣诞岛</string>
+    <string name="country_cocos_keeling_islands_name">科科斯（基林）群岛</string>
+    <string name="country_colombia_name">哥伦比亚</string>
+    <string name="country_comoros_name">科摩罗</string>
+    <string name="country_congo_name">刚果（布）</string>
+    <string name="country_cook_islands_name">库克群岛</string>
+    <string name="country_costa_rica_name">哥斯达黎加</string>
+    <string name="country_cote_d_ivoire_name">科特迪瓦</string>
+    <string name="country_croatia_name">克罗地亚</string>
+    <string name="country_cuba_name">古巴</string>
+    <string name="country_cyprus_name">塞浦路斯</string>
+    <string name="country_czech_republic_name">捷克</string>
+    <string name="country_denmark_name">丹麦</string>
+    <string name="country_djibouti_name">吉布提</string>
+    <string name="country_dominica_name">多米尼克</string>
+    <string name="country_dominican_republic_name">多米尼加共和国</string>
+    <string name="country_ecuador_name">厄瓜多尔</string>
+    <string name="country_egypt_name">埃及</string>
+    <string name="country_el_salvador_name">萨尔瓦多</string>
+    <string name="country_equatorial_guinea_name">赤道几内亚</string>
+    <string name="country_eritrea_name">厄立特里亚</string>
+    <string name="country_estonia_name">爱沙尼亚</string>
+    <string name="country_ethiopia_name">埃塞俄比亚</string>
+    <string name="country_falkland_islands_malvinas_name">福克兰群岛（马尔维纳斯群岛）</string>
+    <string name="country_faroe_islands_name">法罗群岛</string>
+    <string name="country_fiji_name">斐济</string>
+    <string name="country_finland_name">芬兰</string>
+    <string name="country_france_name">法国</string>
+    <string name="country_french_guyana_name">法属圭亚那</string>
+    <string name="country_french_polynesia_name">法属波利尼西亚</string>
+    <string name="country_gabon_name">加蓬</string>
+    <string name="country_gambia_name">冈比亚</string>
+    <string name="country_georgia_name">格鲁吉亚</string>
+    <string name="country_germany_name">德国</string>
+    <string name="country_ghana_name">加纳</string>
+    <string name="country_gibraltar_name">直布罗陀</string>
+    <string name="country_greece_name">希腊</string>
+    <string name="country_greenland_name">格陵兰</string>
+    <string name="country_grenada_name">格林纳达</string>
+    <string name="country_guatemala_name">危地马拉</string>
+    <string name="country_guinea_bissau_name">几内亚比绍</string>
+    <string name="country_guinea_name">几内亚</string>
+    <string name="country_guyana_name">圭亚那</string>
+    <string name="country_haiti_name">海地</string>
+    <string name="country_holy_see_vatican_city_state_name">梵蒂冈</string>
+    <string name="country_honduras_name">洪都拉斯</string>
+    <string name="country_hong_kong_name">香港</string>
+    <string name="country_hungary_name">匈牙利</string>
+    <string name="country_iceland_name">冰岛</string>
+    <string name="country_india_name">印度</string>
+    <string name="country_indonesia_name">印度尼西亚</string>
+    <string name="country_iran_name">伊朗</string>
+    <string name="country_iraq_name">伊拉克</string>
+    <string name="country_ireland_name">爱尔兰</string>
+    <string name="country_isle_of_man_name">马恩岛</string>
+    <string name="country_israel_name">以色列</string>
+    <string name="country_italy_name">意大利</string>
+    <string name="country_jamaica_name">牙买加</string>
+    <string name="country_japan_name">日本</string>
+    <string name="country_jordan_name">约旦</string>
+    <string name="country_kazakhstan_name">哈萨克斯坦</string>
+    <string name="country_kenya_name">肯尼亚</string>
+    <string name="country_kiribati_name">基里巴斯</string>
+    <string name="country_kosovo_name">Kosovo</string>
+    <string name="country_kuwait_name">科威特</string>
+    <string name="country_kyrgyzstan_name">吉尔吉斯斯坦</string>
+    <string name="country_lao_peoples_democratic_republic_name">老挝</string>
+    <string name="country_latvia_name">拉脱维亚</string>
+    <string name="country_lebanon_name">黎巴嫩</string>
+    <string name="country_lesotho_name">莱索托</string>
+    <string name="country_liberia_name">利比里亚</string>
+    <string name="country_libya_name">利比亚</string>
+    <string name="country_liechtenstein_name">列支敦士登</string>
+    <string name="country_lithuania_name">立陶宛</string>
+    <string name="country_luxembourg_name">卢森堡</string>
+    <string name="country_macao_name">澳门</string>
+    <string name="country_macedonia_name">马其顿（前南斯拉夫马其顿共和国）</string>
+    <string name="country_madagascar_name">马达加斯加</string>
+    <string name="country_malawi_name">马拉维</string>
+    <string name="country_malaysia_name">马来西亚</string>
+    <string name="country_maldives_name">马尔代夫</string>
+    <string name="country_mali_name">马里</string>
+    <string name="country_malta_name">马耳他</string>
+    <string name="country_marshall_islands_name">马绍尔群岛</string>
+    <string name="country_martinique_name">马提尼克</string>
+    <string name="country_mauritania_name">毛里塔尼亚</string>
+    <string name="country_mauritius_name">毛里求斯</string>
+    <string name="country_mayotte_name">马约特</string>
+    <string name="country_mexico_name">墨西哥</string>
+    <string name="country_micronesia_name">密克罗尼西亚</string>
+    <string name="country_moldova_name">摩尔多瓦</string>
+    <string name="country_monaco_name">摩纳哥</string>
+    <string name="country_mongolia_name">蒙古</string>
+    <string name="country_montenegro_name">黑山</string>
+    <string name="country_montserrat_name">蒙特塞拉特</string>
+    <string name="country_morocco_name">摩洛哥</string>
+    <string name="country_mozambique_name">莫桑比克</string>
+    <string name="country_myanmar_name">缅甸</string>
+    <string name="country_namibia_name">纳米比亚</string>
+    <string name="country_nauru_name">瑙鲁</string>
+    <string name="country_nepal_name">尼泊尔</string>
+    <string name="country_netherlands_name">荷兰</string>
+    <string name="country_new_caledonia_name">新喀里多尼亚</string>
+    <string name="country_new_zealand_name">新西兰</string>
+    <string name="country_nicaragua_name">尼加拉瓜</string>
+    <string name="country_niger_name">尼日尔</string>
+    <string name="country_nigeria_name">尼日利亚</string>
+    <string name="country_niue_name">纽埃</string>
+    <string name="country_north_korea_name">朝鲜</string>
+    <string name="country_norway_name">挪威</string>
+    <string name="country_oman_name">阿曼</string>
+    <string name="country_pakistan_name">巴基斯坦</string>
+    <string name="country_palau_name">帕劳</string>
+    <string name="country_panama_name">巴拿马</string>
+    <string name="country_papua_new_guinea_name">巴布亚新几内亚</string>
+    <string name="country_paraguay_name">巴拉圭</string>
+    <string name="country_peru_name">秘鲁</string>
+    <string name="country_philippines_name">菲律宾</string>
+    <string name="country_pitcairn_name">皮特凯恩群岛</string>
+    <string name="country_poland_name">波兰</string>
+    <string name="country_portugal_name">葡萄牙</string>
+    <string name="country_puerto_rico_name">波多黎各</string>
+    <string name="country_qatar_name">卡塔尔</string>
+    <string name="country_reunion_name">留尼汪</string>
+    <string name="country_romania_name">罗马尼亚</string>
+    <string name="country_russian_federation_name">俄罗斯</string>
+    <string name="country_rwanda_name">卢旺达</string>
+    <string name="country_saint_barthelemy_name">圣巴泰勒米</string>
+    <string name="country_saint_helena_name">圣赫勒拿</string>
+    <string name="country_saint_kitts_and_nevis_name">圣基茨和尼维斯</string>
+    <string name="country_saint_lucia_name">圣卢西亚</string>
+    <string name="country_saint_pierre_and_miquelon_name">圣皮埃尔和密克隆群岛</string>
+    <string name="country_saint_vincent_the_grenadines_name">圣文森特和格林纳丁斯</string>
+    <string name="country_samoa_name">萨摩亚</string>
+    <string name="country_san_marino_name">圣马力诺</string>
+    <string name="country_sao_tome_and_principe_name">圣多美和普林西比</string>
+    <string name="country_saudi_arabia_name">沙特阿拉伯</string>
+    <string name="country_senegal_name">塞内加尔</string>
+    <string name="country_serbia_name">塞尔维亚</string>
+    <string name="country_seychelles_name">塞舌尔</string>
+    <string name="country_sierra_leone_name">塞拉利昂</string>
+    <string name="country_singapore_name">新加坡</string>
+    <string name="country_sint_maarten_name">荷属圣马丁</string>
+    <string name="country_slovakia_name">斯洛伐克</string>
+    <string name="country_slovenia_name">斯洛文尼亚</string>
+    <string name="country_solomon_islands_name">所罗门群岛</string>
+    <string name="country_somalia_name">索马里</string>
+    <string name="country_south_africa_name">南非</string>
+    <string name="country_south_korea_name">韩国</string>
+    <string name="country_south_sudan_name">南苏丹</string>
+    <string name="country_spain_name">西班牙</string>
+    <string name="country_sri_lanka_name">斯里兰卡</string>
+    <string name="country_sudan_name">苏丹</string>
+    <string name="country_suriname_name">苏里南</string>
+    <string name="country_swaziland_name">斯威士兰</string>
+    <string name="country_sweden_name">瑞典</string>
+    <string name="country_switzerland_name">瑞士</string>
+    <string name="country_syrian_arab_republic_name">叙利亚</string>
+    <string name="country_taiwan_name">台湾</string>
+    <string name="country_tajikistan_name">塔吉克斯坦</string>
+    <string name="country_tanzania_name">坦桑尼亚</string>
+    <string name="country_thailand_name">泰国</string>
+    <string name="country_the_democratic_republic_of_congo_name">刚果（金）</string>
+    <string name="country_timor_leste_name">东帝汶</string>
+    <string name="country_togo_name">多哥</string>
+    <string name="country_tokelau_name">托克劳</string>
+    <string name="country_tonga_name">汤加</string>
+    <string name="country_trinidad_tobago_name">特立尼达和多巴哥</string>
+    <string name="country_tunisia_name">突尼斯</string>
+    <string name="country_turkey_name">土耳其</string>
+    <string name="country_turkmenistan_name">土库曼斯坦</string>
+    <string name="country_turks_and_caicos_islands_name">特克斯和凯科斯群岛</string>
+    <string name="country_tuvalu_name">图瓦卢</string>
+    <string name="country_uganda_name">乌干达</string>
+    <string name="country_ukraine_name">乌克兰</string>
+    <string name="country_united_arab_emirates_name">阿拉伯联合酋长国</string>
+    <string name="country_united_kingdom_name">英国</string>
+    <string name="country_united_states_name">美国</string>
+    <string name="country_uruguay_name">乌拉圭</string>
+    <string name="country_us_virgin_islands_name">美属维尔京群岛</string>
+    <string name="country_uzbekistan_name">乌兹别克斯坦</string>
+    <string name="country_vanuatu_name">瓦努阿图</string>
+    <string name="country_venezuela_name">委内瑞拉</string>
+    <string name="country_viet_nam_name">越南</string>
+    <string name="country_wallis_and_futuna_name">瓦利斯和富图纳</string>
+    <string name="country_yemen_name">也门</string>
+    <string name="country_zambia_name">赞比亚</string>
+    <string name="country_zimbabwe_name">津巴布韦</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"未知错误"</string>
+    <string name="error_icon_content_description">错误</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"高级"</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"请轻触指纹传感器"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"指纹硬件无法使用。"</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"此设备没有指纹传感器"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"尝试次数过多，请稍后重试。"</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"未注册任何指纹。"</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"用户取消了指纹操作。"</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"无法识别"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"未设置 PIN 码、解锁图案或密码。"</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"此设备不支持 PIN 码、解锁图案或密码。"</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"用户已取消身份验证。"</string>
+    <string name="icon_content_description">对话框图标</string>
+    <string name="item_view_role_description">标签页</string>
+    <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_selection">选择小时</string>
+    <string name="material_hour_suffix">%1$s 点</string>
+    <string name="material_minute_selection">选择分钟</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">上午</string>
+    <string name="material_timepicker_clock_mode_description">切换到时钟模式来输入时间。</string>
+    <string name="material_timepicker_hour">小时</string>
+    <string name="material_timepicker_minute">分钟</string>
+    <string name="material_timepicker_pm">下午</string>
+    <string name="material_timepicker_select_time">选择时间</string>
+    <string name="material_timepicker_text_input_mode_description">切换到文字输入模式来输入时间。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">有 %1$d 条以上的新通知</string>
+    <string name="mtrl_picker_a11y_next_month">转到下个月</string>
+    <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">请选择日期</string>
+    <string name="mtrl_picker_date_header_unselected">选定的日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">表示周几的列：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式无效。</string>
+    <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">范围无效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">请选择范围</string>
+    <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到选择某天</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到选择某年</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"转到上一层级"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"打开抽屉式导航栏"</string>
+    <string name="no_result_found">未找到结果</string>
+    <string msgid="478774118347071097" name="not_set">"未设置"</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string msgid="7961817945132860002" name="preference_copied">"已将“<ns1:g id="SUMMARY">%1$s</ns1:g>”复制到剪贴板。"</string>
+    <string name="search_hint">搜索 …</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜索"</string>
+    <string name="select_country">选择国家/地区</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"关闭"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"开启"</string>
+</resources>

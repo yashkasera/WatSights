@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (c) 2021. Yash Kasera
+4  ~
+5  ~  Licensed under the Apache License, Version 2.0 (the "License");
+6  ~    you may not use this file except in compliance with the License.
+7  ~    You may obtain a copy of the License at
+8  ~
+9  ~        http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~    Unless required by applicable law or agreed to in writing, software
+12  ~    distributed under the License is distributed on an "AS IS" BASIS,
+13  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~    See the License for the specific language governing permissions and
+15  ~    limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.yashkasera.watsights"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="26"
+23-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:21:5-80
+26-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:21:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:22:5-81
+27-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:22:22-78
+28    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+28-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:23:5-82
+28-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:23:22-79
+29    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+29-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:24:5-71
+29-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:24:22-69
+30    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+30-->[androidx.biometric:biometric:1.1.0] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/eb60f6fa076f83ca71dcbab3f595b9ba/biometric-1.1.0/AndroidManifest.xml:24:5-72
+30-->[androidx.biometric:biometric:1.1.0] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/eb60f6fa076f83ca71dcbab3f595b9ba/biometric-1.1.0/AndroidManifest.xml:24:22-69
+31    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+31-->[androidx.biometric:biometric:1.1.0] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/eb60f6fa076f83ca71dcbab3f595b9ba/biometric-1.1.0/AndroidManifest.xml:27:5-74
+31-->[androidx.biometric:biometric:1.1.0] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/eb60f6fa076f83ca71dcbab3f595b9ba/biometric-1.1.0/AndroidManifest.xml:27:22-71
+32
+33    <application
+33-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:25:5-68:19
+34        android:allowBackup="true"
+34-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:26:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.3.2] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/870f77caa98361babb7de475f36bb8a2/core-1.3.2/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:27:9-43
+39        android:label="@string/app_name"
+39-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:28:9-41
+40        android:requestLegacyExternalStorage="true"
+40-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:29:9-52
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:30:9-54
+42        android:supportsRtl="true"
+42-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:31:9-35
+43        android:theme="@style/Theme.WatSights" >
+43-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:32:9-47
+44        <activity android:name="com.yashkasera.watsights.activity.WelcomeActivity" />
+44-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:33:9-62
+44-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:33:19-59
+45        <activity
+45-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:34:9-37:67
+46            android:name="com.yashkasera.watsights.activity.SettingsActivity"
+46-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:35:13-54
+47            android:label="@string/title_activity_settings"
+47-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:36:13-60
+48            android:parentActivityName="com.yashkasera.watsights.activity.MainActivity" />
+48-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:37:13-64
+49        <activity android:name="com.yashkasera.watsights.activity.SplashActivity" >
+49-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:38:9-44:20
+49-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:38:19-58
+50            <intent-filter>
+50-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:39:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:40:17-69
+51-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:40:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:42:17-77
+53-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:42:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:45:9-47:48
+57            android:name="com.yashkasera.watsights.activity.MainActivity"
+57-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:46:13-50
+58            android:label="@string/app_name" />
+58-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:47:13-45
+59
+60        <service
+60-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:49:9-56:19
+61            android:name="com.yashkasera.watsights.services.NotificationService"
+61-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:50:13-57
+62            android:label="@string/app_name"
+62-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:51:13-45
+63            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+63-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:52:13-87
+64            <intent-filter>
+64-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:53:13-55:29
+65                <action android:name="android.service.notification.NotificationListenerService" />
+65-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:54:17-99
+65-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:54:25-96
+66            </intent-filter>
+67        </service>
+68        <service
+68-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:57:9-59:62
+69            android:name="com.yashkasera.watsights.services.MediaListenerService"
+69-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:58:13-58
+70            android:label="@string/media_observer_service" />
+70-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:59:13-59
+71        <service
+71-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:60:9-63:72
+72            android:name="com.yashkasera.watsights.services.FileDeleteService"
+72-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:61:13-55
+73            android:label="Delete File"
+73-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:62:13-40
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:63:13-69
+75
+76        <meta-data
+76-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:65:9-67:57
+77            android:name="preloaded_fonts"
+77-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:66:13-43
+78            android:resource="@array/preloaded_fonts" />
+78-->/Users/yashkasera/Development/App-Dev/WatSights/app/src/main/AndroidManifest.xml:67:13-54
+79
+80        <service
+80-->[androidx.room:room-runtime:2.2.6] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/5656c15061bb6c9a45f2785c725710a9/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.2.6] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/5656c15061bb6c9a45f2785c725710a9/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.2.6] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/5656c15061bb6c9a45f2785c725710a9/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.2.6] /Users/yashkasera/.gradle/caches/transforms-2/files-2.1/5656c15061bb6c9a45f2785c725710a9/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+84    </application>
+85
+86</manifest>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021. Yash Kasera
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.yashkasera.watsights.ui.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_groups"
+        android:name="com.yashkasera.watsights.ui.group.GroupFragment"
+        android:label="@string/title_chats"
+        tools:layout="@layout/fragment_recycler_view">
+        <action
+            android:id="@+id/action_navigation_groups_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_navigation_groups_to_groupInfoFragment"
+            app:destination="@id/groupInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_direct"
+        android:name="com.yashkasera.watsights.ui.directMessage.DirectMessageFragment"
+        android:label="@string/title_direct"
+        tools:layout="@layout/fragment_direct_message" />
+    <fragment
+        android:id="@+id/navigation_storage"
+        android:name="com.yashkasera.watsights.ui.storage.StorageFragment"
+        android:label="@string/title_storage"
+        tools:layout="@layout/fragment_storage">
+        <action
+            android:id="@+id/action_navigation_storage_to_viewFilesFragment"
+            app:destination="@id/viewFilesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_more_options"
+        android:name="com.yashkasera.watsights.ui.MoreOptionsFragment"
+        android:label="@string/title_more_options"
+        tools:layout="@layout/fragment_more_options">
+        <action
+            android:id="@+id/action_navigation_more_options_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_navigation_more_options_to_navigation_deleted"
+            app:destination="@id/navigation_deleted" />
+        <action
+            android:id="@+id/action_navigation_more_options_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+        <action
+            android:id="@+id/action_navigation_more_options_to_faqFragment"
+            app:destination="@id/faqFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_deleted"
+        android:name="com.yashkasera.watsights.ui.deleted.DeletedFragment"
+        android:label="@string/title_deleted"
+        tools:layout="@layout/fragment_recycler_view">
+        <action
+            android:id="@+id/action_navigation_deleted_to_navigation_more_options"
+            app:destination="@id/navigation_more_options" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.yashkasera.watsights.ui.chats.ChatFragment"
+        android:label="Chats"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="groupId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_chatFragment_to_navigation_groups"
+            app:destination="@id/navigation_groups" />
+        <action
+            android:id="@+id/action_chatFragment_to_groupInfoFragment"
+            app:destination="@id/groupInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupInfoFragment"
+        android:name="com.yashkasera.watsights.ui.groupInfo.GroupInfoFragment"
+        android:label="Group Info"
+        tools:layout="@layout/fragment_group_info">
+        <argument
+            android:name="groupId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_groupInfoFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_groupInfoFragment_to_navigation_groups"
+            app:destination="@id/navigation_groups" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewFilesFragment"
+        android:name="com.yashkasera.watsights.ui.ViewFilesFragment"
+        android:label="View Files"
+        tools:layout="@layout/fragment_recycler_view">
+        <argument
+            android:name="type"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_viewFilesFragment_to_navigation_storage"
+            app:destination="@id/navigation_storage" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.yashkasera.watsights.ui.status.StatusFragment"
+        android:label="Status"
+        tools:layout="@layout/fragment_status">
+        <action
+            android:id="@+id/action_statusFragment_to_navigation_more_options"
+            app:destination="@id/navigation_more_options" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.yashkasera.watsights.ui.ContactUsFragment"
+        android:label="@string/title_contact_us"
+        tools:layout="@layout/fragment_contact_us">
+        <action
+            android:id="@+id/action_contactUsFragment_to_navigation_more_options"
+            app:destination="@id/navigation_more_options" />
+    </fragment>
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.yashkasera.watsights.ui.other.OtherFragments"
+        android:label="About"
+        tools:layout="@layout/fragment_faq">
+        <action
+            android:id="@+id/action_faqFragment_to_navigation_more_options"
+            app:destination="@id/navigation_more_options" />
+        <argument
+            android:name="page"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
