@@ -6,7 +6,9 @@ Missing out on important messages due to spamming of unwanted messages? Missed o
 
 Here we present to you WatSights - A one stop solution to all your Whatsapp problems. Be it missing out on important messages, sending whatsapp messages to unknown numbers, clearing junk storage occupied by stickers, downloading someone's status or recovering a deleted message. WatSights got you covered.
 
- [![DOCS](https://img.shields.io/badge/Source%20Code-see%20docs-green)](https://github.com/yashkasera/WatSights) 
+[![DOCS](https://img.shields.io/badge/Source%20Code-see%20docs-green)](https://github.com/yashkasera/WatSights)
+
+[![DOCS](https://img.shields.io/badge/Website-WatSightsWeb-orange)](https://yashkasera.github.io/WatSightsWeb)
 
 [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://www.figma.com/file/CbHs8D3vRu8WADaS0EV6NW/watsights-updated?node-id=0%3A1)
 

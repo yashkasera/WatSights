@@ -70,26 +70,26 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
         if (message.getGroupName() != null) {
             if (message.isElite()) {
                 SpannableStringBuilder spannableStringBuilder = new SpannableStringBuilder();
+                spannableStringBuilder.appendWithSpace(message.getPersonName(), new ForegroundColorSpan(context.getColor(R.color.colorAccent)));
                 if (showGroupName) {
-                    spannableStringBuilder.appendWithSpace(message.getGroupName(), new ForegroundColorSpan(context.getColor(R.color.color_5)));
                     spannableStringBuilder.appendWithSpace("@");
+                    spannableStringBuilder.appendWithSpace(message.getGroupName(), new ForegroundColorSpan(context.getColor(R.color.color_5)));
                 }
-                spannableStringBuilder.append(message.getPersonName(), new ForegroundColorSpan(context.getColor(R.color.colorAccent)));
                 holder.from.setText(spannableStringBuilder.build());
             } else if (message.isSpammer()) {
                 SpannableStringBuilder spannableStringBuilder = new SpannableStringBuilder();
+                spannableStringBuilder.appendWithSpace(message.getPersonName(), new ForegroundColorSpan(context.getColor(R.color.black_2)));
                 if (showGroupName) {
-                    spannableStringBuilder.appendWithSpace(message.getGroupName(), new ForegroundColorSpan(context.getColor(R.color.color_5)));
                     spannableStringBuilder.appendWithSpace("@");
+                    spannableStringBuilder.appendWithSpace(message.getGroupName(), new ForegroundColorSpan(context.getColor(R.color.color_5)));
                 }
-                spannableStringBuilder.append(message.getPersonName(), new ForegroundColorSpan(context.getColor(R.color.black_2)));
                 holder.from.setText(spannableStringBuilder.build());
             } else {
                 SpannableStringBuilder spannableStringBuilder = new SpannableStringBuilder();
                 if (showGroupName) {
-                    spannableStringBuilder.appendWithSpace(message.getGroupName(), new ForegroundColorSpan(context.getColor(R.color.color_5)));
+                    spannableStringBuilder.appendWithSpace(message.getPersonName(), new ForegroundColorSpan(context.getColor(R.color.color_2)));
                     spannableStringBuilder.appendWithSpace("@");
-                    spannableStringBuilder.append(message.getPersonName(), new ForegroundColorSpan(context.getColor(R.color.color_2)));
+                    spannableStringBuilder.appendWithSpace(message.getGroupName(), new ForegroundColorSpan(context.getColor(R.color.color_5)));
                     holder.from.setText(spannableStringBuilder.build());
                 } else {
                     holder.from.setText(message.getPersonName());

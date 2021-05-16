@@ -31,6 +31,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
 import com.yashkasera.watsights.R;
+import com.yashkasera.watsights.activity.MainActivity;
 
 import static android.content.Context.NOTIFICATION_SERVICE;
 
@@ -44,10 +45,17 @@ public class NotificationBuilder {
     private final NotificationManager notificationManager;
     private String from, message;
     private long messageId;
+    private final PendingIntent pendingIntent;
 
     public NotificationBuilder(Context context) {
         this.context = context;
         notificationManager = (NotificationManager) context.getSystemService(NOTIFICATION_SERVICE);
+        Intent notificationIntent;
+        notificationIntent = new Intent(context, MainActivity.class);
+        notificationIntent.addCategory(Intent.CATEGORY_LAUNCHER);
+        notificationIntent.setAction(Intent.ACTION_MAIN);
+        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0);
     }
 
     public NotificationBuilder(Context context, String from, String message, long messageId) {
@@ -56,9 +64,16 @@ public class NotificationBuilder {
         this.message = message;
         this.messageId = messageId;
         notificationManager = (NotificationManager) context.getSystemService(NOTIFICATION_SERVICE);
+        Intent notificationIntent;
+        notificationIntent = new Intent(context, MainActivity.class);
+        notificationIntent.addCategory(Intent.CATEGORY_LAUNCHER);
+        notificationIntent.setAction(Intent.ACTION_MAIN);
+        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0);
     }
 
     public void showImportantNotification() {
+
         Notification notification = new NotificationCompat.Builder(context, context.getString(R.string.IMPORTANT_NOTIFICATION_CHANNEL))
                 .setSmallIcon(R.drawable.ic_notification_icon)
                 .setColor(ContextCompat.getColor(context, R.color.color_3))
@@ -69,8 +84,9 @@ public class NotificationBuilder {
                         .setBigContentTitle(from)
                         .bigText(message))
                 .setGroup(GROUP_KEY_IMPORTANT)
+                .setAutoCancel(true)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setContentIntent(PendingIntent.getActivity(context, 0, new Intent(), 0))
+                .setContentIntent(pendingIntent)
                 .build();
 
         Notification summary = new NotificationCompat.Builder(context, context.getString(R.string.IMPORTANT_NOTIFICATION_CHANNEL))
@@ -84,6 +100,7 @@ public class NotificationBuilder {
 
         notificationManager.notify((int) messageId, notification);
         notificationManager.notify(1, summary);
+
     }
 
     public void showMentionNotification() {
@@ -96,8 +113,10 @@ public class NotificationBuilder {
                         .setBigContentTitle(from)
                         .bigText(message))
                 .setGroup(GROUP_KEY_MENTIONS)
+                .setAutoCancel(true)
                 .setChannelId(context.getString(R.string.MENTION_NOTIFICATION_CHANNEL))
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setContentIntent(pendingIntent)
                 .build();
 
         Notification summary = new NotificationCompat.Builder(context, context.getString(R.string.MENTION_NOTIFICATION_CHANNEL))
@@ -121,8 +140,10 @@ public class NotificationBuilder {
                 .setContentTitle(from)
                 .setContentText(message)
                 .setGroup(GROUP_KEY_ELITE)
+                .setAutoCancel(true)
                 .setChannelId(context.getString(R.string.ELITE_NOTIFICATION_CHANNEL))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .setContentIntent(pendingIntent)
                 .build();
 
         Notification summary = new NotificationCompat.Builder(context, context.getString(R.string.ELITE_NOTIFICATION_CHANNEL))
@@ -132,6 +153,7 @@ public class NotificationBuilder {
                         .setSummaryText("Elite Gang Messages"))
                 .setGroup(GROUP_KEY_ELITE)
                 .setGroupSummary(true)
+                .setContentIntent(pendingIntent)
                 .build();
 
         notificationManager.notify((int) messageId, notification);
@@ -146,12 +168,13 @@ public class NotificationBuilder {
                 .setContentTitle("Media Message Recovered")
                 .setChannelId(context.getString(R.string.DELETED_MEDIA_NOTIFICATION_CHANNEL))
                 .setLargeIcon(bitmap)
+                .setAutoCancel(true)
                 .setStyle(new NotificationCompat.BigPictureStyle()
                         .bigPicture(bitmap)
                         .bigLargeIcon(null))
                 .setGroup(GROUP_KEY_DELETED)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setContentIntent(PendingIntent.getActivity(context, 0, new Intent(), 0))
+                .setContentIntent(pendingIntent)
                 .build();
 
         Notification summary = new NotificationCompat.Builder(context, context.getString(R.string.DELETED_MEDIA_NOTIFICATION_CHANNEL))
@@ -214,5 +237,9 @@ public class NotificationBuilder {
             notificationManager.createNotificationChannel(channel);
             notificationManager.createNotificationChannelGroup(new NotificationChannelGroup(GROUP_KEY_DELETED, "DELETED MEDIA"));
         }
+    }
+
+    public void cancelAll(){
+        notificationManager.cancelAll();
     }
 }

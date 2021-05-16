@@ -67,11 +67,11 @@ public class OtherFragments extends Fragment {
         setHasOptionsMenu(true);
         view.findViewById(R.id.read).setOnClickListener(v -> {
             if (page == 0) {
-                viewSite("https://yashkasera.github.io/WatSights");
+                viewSite("https://yashkasera.github.io/WatSightsWeb/");
             } else if (page == 1) {
-                viewSite("https://yashkasera.github.io/WatSights/privacy_policy.html");
+                viewSite("https://yashkasera.github.io/WatSightsWeb/privacy_policy.html");
             } else {
-                viewSite("https://yashkasera.github.io/WatSights/terms_of_use.html");
+                viewSite("https://yashkasera.github.io/WatSightsWeb/terms_of_use.html");
             }
         });
     }

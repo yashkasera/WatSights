@@ -47,6 +47,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.yashkasera.watsights.R;
 import com.yashkasera.watsights.services.MediaListenerService;
 import com.yashkasera.watsights.util.Constants;
+import com.yashkasera.watsights.util.NotificationBuilder;
 
 import java.io.File;
 
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
     }
 
     void checkPermissions() {
@@ -145,10 +147,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                startActivity(new Intent(this, SettingsActivity.class));
-                return true;
+        if (item.getItemId() == R.id.action_settings) {
+            startActivity(new Intent(this, SettingsActivity.class));
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -174,5 +175,13 @@ public class MainActivity extends AppCompatActivity {
                 checkPermissions();
             }
         }
+    }
+
+    //Clear all notifications on app open
+    @Override
+    protected void onResume() {
+        super.onResume();
+        NotificationBuilder notificationBuilder = new NotificationBuilder(this);
+        notificationBuilder.cancelAll();
     }
 }
