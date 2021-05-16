@@ -32,6 +32,7 @@
             android:title="Your Name"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
+
         <ListPreference
             android:defaultValue="true"
             android:entries="@array/display_mode_entries"
@@ -47,7 +48,14 @@
             android:key="important_filters"
             android:title="Important Message Filters"
             app:iconSpaceReserved="false"
-            app:summary="Customise what is important for you"></Preference>
+            app:summary="Customise what is important for you"/>
+
+        <Preference
+            android:textAlignment="center"
+            android:title="View App Demo"
+            app:allowDividerAbove="false"
+            app:iconSpaceReserved="false"
+            app:key="demo" />
     </PreferenceCategory>
 
     <PreferenceCategory

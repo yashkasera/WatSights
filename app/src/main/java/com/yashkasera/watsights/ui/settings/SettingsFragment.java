@@ -25,6 +25,8 @@ import android.widget.Toast;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.biometric.BiometricManager;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.preference.ListPreference;
@@ -34,6 +36,7 @@ import androidx.preference.SwitchPreference;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.yashkasera.watsights.R;
+import com.yashkasera.watsights.ui.dialogs.InfoDialog;
 import com.yashkasera.watsights.util.Constants;
 
 import java.io.File;
@@ -57,157 +60,130 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
         Preference important_filters = findPreference("important_filters");
         assert important_filters != null;
-        important_filters.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                NavHostFragment.findNavController(SettingsFragment.this).navigate(R.id.action_settingsFragment_to_importantFiltersFragment);
-                return true;
-            }
+        important_filters.setOnPreferenceClickListener(preference -> {
+            NavHostFragment.findNavController(SettingsFragment.this).navigate(R.id.action_settingsFragment_to_importantFiltersFragment);
+            return true;
         });
         ListPreference displayMode = findPreference("display");
         assert displayMode != null;
-        displayMode.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-            @Override
-            public boolean onPreferenceChange(Preference preference, Object newValue) {
-                Log.i(TAG, "onPreferenceChange: " + newValue);
-                if (newValue.equals("light_mode")) {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                } else if (newValue.equals("dark_mode")) {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        displayMode.setOnPreferenceChangeListener((preference, newValue) -> {
+            Log.i(TAG, "onPreferenceChange: " + newValue);
+            if (newValue.equals("light_mode")) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+            } else if (newValue.equals("dark_mode")) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+            }
+            return true;
+        });
+
+        Preference demo = findPreference("demo");
+        assert demo != null;
+        demo.setOnPreferenceClickListener(preference -> {
+            FragmentTransaction transaction = ((FragmentActivity) getContext())
+                    .getSupportFragmentManager()
+                    .beginTransaction();
+            Bundle bundle = new Bundle();
+            bundle.putString("title", "New to this app?");
+            bundle.putString("message", "We'd recommend you to watch this 5 minute tutorial to make the most out of this app\nhttps://youtu.be/o3De2ps6cLg");
+            bundle.putString("button", "DISMISS");
+            InfoDialog.newInstance(bundle).show(transaction, "dialog_info");
+            return true;
+        });
+
+        biometrics = findPreference("biometrics");
+        biometrics.setOnPreferenceChangeListener((preference, newValue) -> {
+            if ((boolean) newValue) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+                    return biometric();
                 } else {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+                    Toast.makeText(getContext(), "This device does not support biometrics", Toast.LENGTH_SHORT).show();
                 }
+
+            } else {
+                Toast.makeText(getContext(), "Biometrics disabled Successfully", Toast.LENGTH_SHORT).show();
                 return true;
             }
-        });
-        biometrics = findPreference("biometrics");
-        biometrics.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-            @Override
-            public boolean onPreferenceChange(Preference preference, Object newValue) {
-                if ((boolean) newValue) {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-                        return biometric();
-                    } else {
-                        Toast.makeText(getContext(), "This device does not support biometrics", Toast.LENGTH_SHORT).show();
-                    }
+            return false;
 
-                } else {
-                    Toast.makeText(getContext(), "Biometrics disabled Successfully", Toast.LENGTH_SHORT).show();
-                    return true;
-                }
-                return false;
-
-            }
         });
 
         Preference elite = findPreference("elite");
         assert elite != null;
-        elite.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                new MaterialAlertDialogBuilder(getContext())
-                        .setTitle("Confirm Reset Elite Members")
-                        .setMessage("Removes all Elite Members. Their messages will not be deleted" +
-                                "\nThis action cannot be undone. Do you still want to proceed?")
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                try {
-                                    mViewModel.resetElite();
-                                    Toast.makeText(getContext(), "All Elite Members removed", Toast.LENGTH_SHORT).show();
-                                } catch (Exception e) {
-                                    Log.e(TAG, "onClick: ", e);
-                                } finally {
-                                    dialog.dismiss();
-                                }
-                            }
-                        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                }).create().show();
-                return true;
-            }
+        elite.setOnPreferenceClickListener(preference -> {
+            new MaterialAlertDialogBuilder(getContext())
+                    .setTitle("Confirm Reset Elite Members")
+                    .setMessage("Removes all Elite Members. Their messages will not be deleted" +
+                            "\nThis action cannot be undone. Do you still want to proceed?")
+                    .setPositiveButton("Yes", (dialog, which) -> {
+                        try {
+                            mViewModel.resetElite();
+                            Toast.makeText(getContext(), "All Elite Members removed", Toast.LENGTH_SHORT).show();
+                        } catch (Exception e) {
+                            Log.e(TAG, "onClick: ", e);
+                        } finally {
+                            dialog.dismiss();
+                        }
+                    }).setNegativeButton("No", (dialog, which) -> dialog.dismiss()).create().show();
+            return true;
         });
         Preference spammers = findPreference("spammers");
         assert spammers != null;
-        spammers.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                new MaterialAlertDialogBuilder(getContext())
-                        .setTitle("Confirm Reset Spammers")
-                        .setMessage("Removes all Spammers. Their messages will not be deleted" +
-                                "\nThis action cannot be undone. Do you still want to proceed?")
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                try {
-                                    mViewModel.resetSpammers();
-                                    Toast.makeText(getContext(), "All Spammers removed", Toast.LENGTH_SHORT).show();
-                                } catch (Exception e) {
-                                    Log.e(TAG, "onClick: ", e);
-                                } finally {
-                                    dialog.dismiss();
-                                }
+        spammers.setOnPreferenceClickListener(preference -> {
+            new MaterialAlertDialogBuilder(getContext())
+                    .setTitle("Confirm Reset Spammers")
+                    .setMessage("Removes all Spammers. Their messages will not be deleted" +
+                            "\nThis action cannot be undone. Do you still want to proceed?")
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            try {
+                                mViewModel.resetSpammers();
+                                Toast.makeText(getContext(), "All Spammers removed", Toast.LENGTH_SHORT).show();
+                            } catch (Exception e) {
+                                Log.e(TAG, "onClick: ", e);
+                            } finally {
+                                dialog.dismiss();
                             }
-                        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                }).create().show();
-                return true;
-            }
+                        }
+                    }).setNegativeButton("No", (dialog, which) -> dialog.dismiss()).create().show();
+            return true;
         });
         Preference clearApp = findPreference("clearApp");
         assert clearApp != null;
-        clearApp.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                new MaterialAlertDialogBuilder(getContext())
-                        .setTitle("Confirm Delete")
-                        .setMessage(R.string.clear_data)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                try {
-                                    mViewModel.deleteAllMessages();
-                                    Toast.makeText(getContext(), "All Messages deleted Successfully", Toast.LENGTH_SHORT).show();
-                                } catch (Exception e) {
-                                    Log.e(TAG, "onClick: ", e);
-                                }
-                            }
-                        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                }).create().show();
-                return true;
-            }
+        clearApp.setOnPreferenceClickListener(preference -> {
+            new MaterialAlertDialogBuilder(getContext())
+                    .setTitle("Confirm Delete")
+                    .setMessage(R.string.clear_data)
+                    .setPositiveButton("Yes", (dialog, which) -> {
+                        try {
+                            mViewModel.deleteAllMessages();
+                            Toast.makeText(getContext(), "All Messages deleted Successfully", Toast.LENGTH_SHORT).show();
+                        } catch (Exception e) {
+                            Log.e(TAG, "onClick: ", e);
+                        }
+                    }).setNegativeButton("No", (dialog, which) -> dialog.dismiss()).create().show();
+            return true;
         });
         Preference clearAll = findPreference("clearAll");
         assert clearAll != null;
-        clearAll.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                new MaterialAlertDialogBuilder(getContext())
-                        .setTitle("Confirm Delete")
-                        .setMessage(R.string.delete_app_data)
-                        .setPositiveButton("Yes", (dialog, which) -> {
-                            try {
-                                mViewModel.deleteAllMessages();
-                                File file = new File(Constants.APP_DIR);
-                                if (file.exists())
-                                    deleteAllFiles(file);
-                                Toast.makeText(getContext(), "All data deleted Successfully", Toast.LENGTH_SHORT).show();
-                            } catch (Exception e) {
-                                Log.e(TAG, "onClick: ", e);
-                            }
-                        }).setNegativeButton("No", (dialog, which) -> dialog.dismiss()).create().show();
-                return true;
-            }
+        clearAll.setOnPreferenceClickListener(preference -> {
+            new MaterialAlertDialogBuilder(getContext())
+                    .setTitle("Confirm Delete")
+                    .setMessage(R.string.delete_app_data)
+                    .setPositiveButton("Yes", (dialog, which) -> {
+                        try {
+                            mViewModel.deleteAllMessages();
+                            File file = new File(Constants.APP_DIR);
+                            if (file.exists())
+                                deleteAllFiles(file);
+                            Toast.makeText(getContext(), "All data deleted Successfully", Toast.LENGTH_SHORT).show();
+                        } catch (Exception e) {
+                            Log.e(TAG, "onClick: ", e);
+                        }
+                    }).setNegativeButton("No", (dialog, which) -> dialog.dismiss()).create().show();
+            return true;
         });
     }
 

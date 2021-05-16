@@ -107,18 +107,6 @@ com/yashkasera/watsights/ui/groupInfo/GroupInfoFragment.java
 com/yashkasera/watsights/ui/settings/SettingsFragment.java
  com.yashkasera.watsights.ui.settings.SettingsFragment
  com.yashkasera.watsights.ui.settings.SettingsFragment$1
- com.yashkasera.watsights.ui.settings.SettingsFragment$2
- com.yashkasera.watsights.ui.settings.SettingsFragment$3
- com.yashkasera.watsights.ui.settings.SettingsFragment$4
- com.yashkasera.watsights.ui.settings.SettingsFragment$4$1
- com.yashkasera.watsights.ui.settings.SettingsFragment$4$2
- com.yashkasera.watsights.ui.settings.SettingsFragment$5
- com.yashkasera.watsights.ui.settings.SettingsFragment$5$1
- com.yashkasera.watsights.ui.settings.SettingsFragment$5$2
- com.yashkasera.watsights.ui.settings.SettingsFragment$6
- com.yashkasera.watsights.ui.settings.SettingsFragment$6$1
- com.yashkasera.watsights.ui.settings.SettingsFragment$6$2
- com.yashkasera.watsights.ui.settings.SettingsFragment$7
 com/yashkasera/watsights/ui/dialogs/ImageViewDialog.java
  com.yashkasera.watsights.ui.dialogs.ImageViewDialog
 com/yashkasera/watsights/activity/MainActivity.java

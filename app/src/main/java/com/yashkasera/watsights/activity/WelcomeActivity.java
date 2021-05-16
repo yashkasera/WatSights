@@ -224,7 +224,7 @@ public class WelcomeActivity extends AppCompatActivity {
             File temp = new File(Environment.getExternalStorageDirectory(), "WatSights" + File.separator + "Whatsapp Deleted Images" + File.separator + "temp");
             if (!temp.exists()) temp.mkdirs();
             Log.i(TAG, "launchHomeScreen: start");
-            sharedPreferenceManager.setFirstTimeLaunch(false);
+//            sharedPreferenceManager.setFirstTimeLaunch(false);
             startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
             finish();
         }

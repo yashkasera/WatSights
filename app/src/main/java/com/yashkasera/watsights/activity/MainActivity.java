@@ -17,6 +17,7 @@
 package com.yashkasera.watsights.activity;
 
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -36,6 +37,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -46,8 +49,10 @@ import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import com.yashkasera.watsights.R;
 import com.yashkasera.watsights.services.MediaListenerService;
+import com.yashkasera.watsights.ui.dialogs.InfoDialog;
 import com.yashkasera.watsights.util.Constants;
 import com.yashkasera.watsights.util.NotificationBuilder;
+import com.yashkasera.watsights.util.SharedPreferenceManager;
 
 import java.io.File;
 
@@ -61,7 +66,9 @@ public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_NOTIFICATION_ACCESS_CODE = 1002;
     private static final int PERMISSION_REQUEST_CODE = 1003;
     Toolbar toolbar;
+    Context context = this;
     Snackbar snackbarStorage, snackbarNotifications;
+    private SharedPreferenceManager sharedPreferenceManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +84,18 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+        sharedPreferenceManager = new SharedPreferenceManager(context);
+        if (sharedPreferenceManager.isFirstTimeLaunch()) {
+            FragmentTransaction transaction = ((FragmentActivity) context)
+                    .getSupportFragmentManager()
+                    .beginTransaction();
+            Bundle bundle = new Bundle();
+            bundle.putString("title", "New to this app?");
+            bundle.putString("message", "We'd recommend you to watch this 5 minute tutorial to make the most out of this app\nhttps://youtu.be/o3De2ps6cLg\n\nYou can find this message in settings for future reference.");
+            bundle.putString("button", "DISMISS");
+            InfoDialog.newInstance(bundle).show(transaction, "dialog_info");
+            sharedPreferenceManager.setFirstTimeLaunch(false);
+        }
 
     }
 
