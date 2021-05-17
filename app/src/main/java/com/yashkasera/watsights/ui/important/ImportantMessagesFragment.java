@@ -71,7 +71,7 @@ public class ImportantMessagesFragment extends Fragment {
         list = new ArrayList<>();
         messageAdapter = new MessageAdapter(getActivity(), list, true);
         recyclerView.setAdapter(messageAdapter);
-        mViewModel.getImportantMessages().observe(getActivity(), importantMessages -> {
+        mViewModel.getImportantMessages().observe(requireActivity(), importantMessages -> {
             list = importantMessages;
             if (list.size() == 0) {
                 view.findViewById(R.id.no_results).setVisibility(View.VISIBLE);
@@ -81,13 +81,12 @@ public class ImportantMessagesFragment extends Fragment {
                 recyclerView.setVisibility(View.VISIBLE);
                 messageAdapter.setList(list);
                 messageAdapter.notifyDataSetChanged();
-                recyclerView.scrollToPosition(list.size() - 1);
             }
         });
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), recyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Snackbar.make(getContext(), view, "Long press on a message to pin it", BaseTransientBottomBar.LENGTH_SHORT)
+                Snackbar.make(requireContext(), view, "Long press on a message to pin it", BaseTransientBottomBar.LENGTH_SHORT)
                         .show();
             }
 

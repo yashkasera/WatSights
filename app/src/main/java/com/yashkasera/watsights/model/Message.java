@@ -20,7 +20,6 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = "MESSAGES")
-//, foreignKeys = {@ForeignKey(entity = Group.class, parentColumns = "id", childColumns = "groupId"),@ForeignKey(entity = People.class, parentColumns = "id", childColumns = "personId")}
 public class Message {
     @PrimaryKey(autoGenerate = true)
     public long id;

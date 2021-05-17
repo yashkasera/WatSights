@@ -26,7 +26,8 @@
     android:background="@drawable/bubble_left_tail"
     android:foreground="?android:attr/selectableItemBackground"
     android:minWidth="100dp"
-    android:padding="4dp">
+    android:paddingHorizontal="@dimen/margin_small"
+    android:paddingVertical="4dp">
 
     <TextView
         android:id="@+id/from"

@@ -169,12 +169,13 @@ public interface DatabaseDao {
 
     @Query("SELECT message FROM MESSAGES \n" +
             "LEFT JOIN GROUPS ON  GROUPS.id =  MESSAGES.groupId\n" +
-            "WHERE groupId=:groupId ORDER BY timestamp DESC LIMIT 1;")
+            "WHERE groupId=:groupId ORDER BY MESSAGES.id DESC LIMIT 1;")
     String getGroupLastMessage(long groupId);
 
     @Query("SELECT message FROM MESSAGES \n" +
             "INNER JOIN PEOPLE ON  PEOPLE.id =  MESSAGES.personId\n" +
             "WHERE groupId IS NULL AND personId=:personId  ORDER BY timestamp DESC LIMIT 1;")
+
     String getPersonLastMessage(long personId);
 
     @Query("DELETE FROM ELITE")

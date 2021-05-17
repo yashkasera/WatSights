@@ -1776,7 +1776,7 @@ public final class DatabaseDao_Impl implements DatabaseDao {
   public String getGroupLastMessage(final long groupId) {
     final String _sql = "SELECT message FROM MESSAGES \n"
             + "LEFT JOIN GROUPS ON  GROUPS.id =  MESSAGES.groupId\n"
-            + "WHERE groupId=? ORDER BY timestamp DESC LIMIT 1;";
+            + "WHERE groupId=? ORDER BY MESSAGES.id DESC LIMIT 1;";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
     _statement.bindLong(_argIndex, groupId);

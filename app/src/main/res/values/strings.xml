@@ -182,5 +182,4 @@ Similarly it listens for media changes when a new media is added on your phone a
     <string name="number">Number</string>
     <string name="time">Time</string>
     <string name="duration">Duration</string>
-    <!-- TODO: Remove or change this placeholder text -->
 </resources>
